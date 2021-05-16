@@ -10,9 +10,10 @@ export default function ChampionCard({ champion, tier = null }) {
             <div className="relative">
                 <img
                     src={`https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/${imageId}_0.jpg`}
-                    className="w-32 w-32 min-w-[128px] min-h-[128px] relative"
+                    className="w-32 h-32 min-w-[128px] min-h-[128px] relative"
                     alt={champion.name}
                 />
+
                 <div className="absolute right-0 bottom-0 flex justify-end bg-black bg-opacity-30">
                     {champion.getRoles().map((role) => {
                         const Icon = getRoleIconByRole(role);
