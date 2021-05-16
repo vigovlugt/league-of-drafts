@@ -122,6 +122,13 @@ export default function ChampionsPage() {
                                                         currentCompType
                                                     ]
                                                 }
+                                                stats={
+                                                    currentRole
+                                                        ? c.statsByRole[
+                                                              currentRole
+                                                          ]
+                                                        : null
+                                                }
                                             />
                                         ))}
                                     </div>
@@ -139,7 +146,15 @@ export default function ChampionsPage() {
                                 : true
                         )
                         .map((c) => (
-                            <ChampionCard key={c.id} champion={c} />
+                            <ChampionCard
+                                key={c.id}
+                                champion={c}
+                                stats={
+                                    currentRole
+                                        ? c.statsByRole[currentRole]
+                                        : null
+                                }
+                            />
                         ))}
                 </div>
             )}
