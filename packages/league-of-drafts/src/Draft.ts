@@ -46,6 +46,12 @@ export default class Draft {
         this.addChampion(championIds[4], Role.Support);
     }
 
+    public getChampion(role: Role) {
+        const champion = this.champions.find((c) => c.role === role);
+
+        return this.champions.find((c) => c.role === role);
+    }
+
     public getStrengths() {
         return this.compTypeAnalyzer.getStrengths();
     }

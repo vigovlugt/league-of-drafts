@@ -32,23 +32,23 @@ export default function ChampionsPage() {
                 if (tier === "S") {
                     if (
                         champion.strengthByComp[currentCompType] >=
-                        tierToNumber("S-")
+                        tierToNumber("S") - 0.5
                     ) {
                         championsByTier[tier].push(champion);
                     }
                 } else if (tier === "F") {
                     if (
                         champion.strengthByComp[currentCompType] <=
-                        tierToNumber("F+")
+                        tierToNumber("F") + 0.5
                     ) {
                         championsByTier[tier].push(champion);
                     }
                 } else {
                     if (
                         champion.strengthByComp[currentCompType] <=
-                            tierToNumber(tier + "+") &&
+                            tierToNumber(tier) + 0.5 &&
                         champion.strengthByComp[currentCompType] >=
-                            tierToNumber(tier + "-")
+                            tierToNumber(tier) - 0.5
                     ) {
                         championsByTier[tier].push(champion);
                     }
@@ -66,7 +66,7 @@ export default function ChampionsPage() {
     }, [currentCompType]);
 
     return (
-        <div className="p-4 mx-auto max-w-7xl">
+        <div className="p-4 mx-auto max-w-7xl w-full">
             <h1 className="px-2 text-4xl font-header text-light">Champions</h1>
             <div className="flex items-center justify-between py-2">
                 <div className="flex items-center">
