@@ -1,16 +1,19 @@
-import CompType from "./models/CompType";
-import ChampionDataLoader from "./loaders/ChampionDataLoader";
 import IChampionData from "./models/champion/IChampionData";
-import DraftChampion from "./models/DraftChampion";
+import DraftChampion from "./models/champion/DraftChampion";
 import Role from "./models/Role";
+import DraftLineAnalyzer from "./analyzers/DraftLineAnalyzer";
+
+import championData from "@league-of-drafts/data/dataset/dataset.json";
+import CompTypeAnalyzer from "./analyzers/CompTypeAnalyzer";
 
 export default class Draft {
-    private champions: DraftChampion[] = [];
-
-    private readonly championData: IChampionData[];
+    public champions: DraftChampion[] = [];
+    private readonly draftLineAnalyzer: DraftLineAnalyzer;
+    private readonly compTypeAnalyzer: CompTypeAnalyzer;
 
     constructor(champions: string[] | null) {
-        this.championData = ChampionDataLoader.getChampionData();
+        this.draftLineAnalyzer = new DraftLineAnalyzer(this);
+        this.compTypeAnalyzer = new CompTypeAnalyzer(this);
 
         if (champions) {
             this.setChampions(champions);
@@ -22,10 +25,9 @@ export default class Draft {
             throw new Error("Max team limit 5");
         }
 
-        // Check if id is valid.
-        this.getChampionData(championId);
+        const championInfo = this.getChampionData(championId);
 
-        const champion = new DraftChampion(championId, role);
+        const champion = new DraftChampion(role, championInfo);
 
         this.champions.push(champion);
     }
@@ -45,48 +47,29 @@ export default class Draft {
     }
 
     public getStrengths() {
-        const strengthByCompType: { [key in CompType]: number } = {
-            Attack: 0,
-            Siege: 0,
-            Split: 0,
-            Protect: 0,
-            Catch: 0,
-        };
-
-        for (const champion of this.champions) {
-            const championData = this.getChampionData(champion.id);
-            for (const compType of Object.keys(championData.strengthByComp)) {
-                strengthByCompType[compType as CompType] +=
-                    championData.strengthByComp[compType as CompType];
-            }
-        }
-
-        for (const compType of Object.keys(strengthByCompType)) {
-            strengthByCompType[compType as CompType] /= this.champions.length;
-        }
-
-        return strengthByCompType;
+        return this.compTypeAnalyzer.getStrengths();
     }
 
     public getCompType() {
-        const strengths = this.getStrengths();
-
-        return Object.keys(strengths).reduce((a, b) =>
-            strengths[a as CompType] > strengths[b as CompType] ? a : b
-        );
+        return this.compTypeAnalyzer.getCompType();
     }
 
-    private getChampionData(championId: string) {
-        let championData = this.championData.find((c) => c.id === championId);
+    public getDraftLines() {
+        return this.draftLineAnalyzer.getDraftLines();
+    }
 
-        if (!championData) {
-            championData = this.championData.find((c) => c.name === championId);
+    private getChampionData(championId: string): IChampionData {
+        let champion = championData.find((c) => c.id === championId);
+
+        if (!champion) {
+            champion = championData.find((c) => c.name === championId);
         }
 
-        if (!championData) {
+        if (!champion) {
             throw new Error("Champion unknown: " + championId);
         }
 
-        return championData;
+        // @ts-ignore
+        return champion;
     }
 }

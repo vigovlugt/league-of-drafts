@@ -13,6 +13,6 @@ const { Draft } = require("./dist/index");
 
 (() => {
     const draft = new Draft();
-    draft.setChampions(["Gnar", "Olaf", "Twisted Fate", "Aphelios", "Thresh"]);
-    console.log(draft.getStrengths());
+    draft.setChampions(["Dr. Mundo", "Warwick", "Orianna", "Twitch", "Lulu"]);
+    console.log(draft.getDraftLines().toString());
 })();

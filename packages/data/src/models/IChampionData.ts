@@ -1,7 +1,7 @@
-import CompType from "../CompType";
-import Role from "../Role";
-import IStats from "../IStats";
-import Class from "../Class";
+import CompType from "./CompType";
+import Role from "./Role";
+import IStats from "./IStats";
+import Class from "./Class";
 
 export default interface IChampionData {
     id: string;

@@ -1,0 +1,5178 @@
+[
+  {
+    "id": "Aatrox",
+    "key": "266",
+    "name": "Aatrox",
+    "class": "Juggernaut",
+    "strengthByComp": {
+      "Siege": 2.7,
+      "Split": 4,
+      "Protect": 3.3,
+      "Catch": 1.7,
+      "Attack": 3.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 106,
+        "matches": 253
+      },
+      "Support": {
+        "wins": 27,
+        "matches": 61
+      },
+      "Bottom": {
+        "wins": 25,
+        "matches": 58
+      },
+      "Top": {
+        "wins": 21318,
+        "matches": 42547
+      },
+      "Mid": {
+        "wins": 1190,
+        "matches": 2301
+      }
+    }
+  },
+  {
+    "id": "Ahri",
+    "key": "103",
+    "name": "Ahri",
+    "class": "Burst Mage",
+    "strengthByComp": {
+      "Siege": 3,
+      "Split": 2.3,
+      "Protect": 1.7,
+      "Catch": 4.3,
+      "Attack": 3.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 3,
+        "matches": 7
+      },
+      "Support": {
+        "wins": 280,
+        "matches": 583
+      },
+      "Bottom": {
+        "wins": 81,
+        "matches": 158
+      },
+      "Top": {
+        "wins": 130,
+        "matches": 244
+      },
+      "Mid": {
+        "wins": 13167,
+        "matches": 25475
+      }
+    }
+  },
+  {
+    "id": "Akali",
+    "key": "84",
+    "name": "Akali",
+    "class": "Assassin",
+    "strengthByComp": {
+      "Siege": 2.3,
+      "Split": 3.7,
+      "Protect": 1.7,
+      "Catch": 4.3,
+      "Attack": 3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 2,
+        "matches": 6
+      },
+      "Support": {
+        "wins": 13,
+        "matches": 40
+      },
+      "Bottom": {
+        "wins": 19,
+        "matches": 48
+      },
+      "Top": {
+        "wins": 8449,
+        "matches": 17637
+      },
+      "Mid": {
+        "wins": 21543,
+        "matches": 45423
+      }
+    }
+  },
+  {
+    "id": "Alistar",
+    "key": "12",
+    "name": "Alistar",
+    "class": "Vanguard",
+    "strengthByComp": {
+      "Siege": 2,
+      "Split": 2,
+      "Protect": 4,
+      "Catch": 2,
+      "Attack": 4.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 13,
+        "matches": 36
+      },
+      "Support": {
+        "wins": 25906,
+        "matches": 52686
+      },
+      "Bottom": {
+        "wins": 32,
+        "matches": 52
+      },
+      "Top": {
+        "wins": 40,
+        "matches": 106
+      },
+      "Mid": {
+        "wins": 14,
+        "matches": 36
+      }
+    }
+  },
+  {
+    "id": "Amumu",
+    "key": "32",
+    "name": "Amumu",
+    "class": "Vanguard",
+    "strengthByComp": {
+      "Siege": 1.7,
+      "Split": 1.7,
+      "Protect": 2.3,
+      "Catch": 4,
+      "Attack": 5.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 4873,
+        "matches": 9669
+      },
+      "Support": {
+        "wins": 55,
+        "matches": 127
+      },
+      "Bottom": {
+        "wins": 3,
+        "matches": 14
+      },
+      "Top": {
+        "wins": 88,
+        "matches": 199
+      },
+      "Mid": {
+        "wins": 23,
+        "matches": 52
+      }
+    }
+  },
+  {
+    "id": "Anivia",
+    "key": "34",
+    "name": "Anivia",
+    "class": "Battle Mage",
+    "strengthByComp": {
+      "Siege": 2.7,
+      "Split": 3.7,
+      "Protect": 3.3,
+      "Catch": 2.3,
+      "Attack": 2.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 0,
+        "matches": 1
+      },
+      "Support": {
+        "wins": 1104,
+        "matches": 2208
+      },
+      "Bottom": {
+        "wins": 192,
+        "matches": 369
+      },
+      "Top": {
+        "wins": 381,
+        "matches": 783
+      },
+      "Mid": {
+        "wins": 10976,
+        "matches": 21056
+      }
+    }
+  },
+  {
+    "id": "Annie",
+    "key": "1",
+    "name": "Annie",
+    "class": "Burst Mage",
+    "strengthByComp": {
+      "Siege": 2,
+      "Split": 2,
+      "Protect": 2,
+      "Catch": 5.3,
+      "Attack": 3.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 8,
+        "matches": 21
+      },
+      "Support": {
+        "wins": 641,
+        "matches": 1285
+      },
+      "Bottom": {
+        "wins": 120,
+        "matches": 224
+      },
+      "Top": {
+        "wins": 218,
+        "matches": 432
+      },
+      "Mid": {
+        "wins": 6389,
+        "matches": 12135
+      }
+    }
+  },
+  {
+    "id": "Aphelios",
+    "key": "523",
+    "name": "Aphelios",
+    "class": "Marksman",
+    "strengthByComp": {
+      "Siege": 2.3,
+      "Split": 2.7,
+      "Protect": 5,
+      "Catch": 2,
+      "Attack": 3.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 1,
+        "matches": 2
+      },
+      "Support": {
+        "wins": 2,
+        "matches": 9
+      },
+      "Bottom": {
+        "wins": 7769,
+        "matches": 16806
+      },
+      "Top": {
+        "wins": 15,
+        "matches": 59
+      },
+      "Mid": {
+        "wins": 24,
+        "matches": 58
+      }
+    }
+  },
+  {
+    "id": "Ashe",
+    "key": "22",
+    "name": "Ashe",
+    "class": "Marksman",
+    "strengthByComp": {
+      "Siege": 3.3,
+      "Split": 2.3,
+      "Protect": 2,
+      "Catch": 4.7,
+      "Attack": 3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 0,
+        "matches": 7
+      },
+      "Support": {
+        "wins": 1129,
+        "matches": 2419
+      },
+      "Bottom": {
+        "wins": 17626,
+        "matches": 34686
+      },
+      "Top": {
+        "wins": 65,
+        "matches": 165
+      },
+      "Mid": {
+        "wins": 37,
+        "matches": 95
+      }
+    }
+  },
+  {
+    "id": "AurelionSol",
+    "key": "136",
+    "name": "Aurelion Sol",
+    "class": "Battle Mage",
+    "strengthByComp": {
+      "Siege": 3,
+      "Split": 1.7,
+      "Protect": 2.7,
+      "Catch": 3.7,
+      "Attack": 3.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 2,
+        "matches": 13
+      },
+      "Support": {
+        "wins": 24,
+        "matches": 46
+      },
+      "Bottom": {
+        "wins": 16,
+        "matches": 29
+      },
+      "Top": {
+        "wins": 83,
+        "matches": 148
+      },
+      "Mid": {
+        "wins": 2385,
+        "matches": 4377
+      }
+    }
+  },
+  {
+    "id": "Azir",
+    "key": "268",
+    "name": "Azir",
+    "class": "Specialist",
+    "strengthByComp": {
+      "Siege": 2.7,
+      "Split": 2,
+      "Protect": 4.3,
+      "Catch": 2,
+      "Attack": 3.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 1,
+        "matches": 4
+      },
+      "Support": {
+        "wins": 10,
+        "matches": 30
+      },
+      "Bottom": {
+        "wins": 53,
+        "matches": 106
+      },
+      "Top": {
+        "wins": 95,
+        "matches": 212
+      },
+      "Mid": {
+        "wins": 2454,
+        "matches": 5206
+      }
+    }
+  },
+  {
+    "id": "Bard",
+    "key": "432",
+    "name": "Bard",
+    "class": "Catcher",
+    "strengthByComp": {
+      "Siege": 3,
+      "Split": 2.3,
+      "Protect": 2.7,
+      "Catch": 4,
+      "Attack": 3.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 5,
+        "matches": 14
+      },
+      "Support": {
+        "wins": 14792,
+        "matches": 28382
+      },
+      "Bottom": {
+        "wins": 18,
+        "matches": 33
+      },
+      "Top": {
+        "wins": 6,
+        "matches": 32
+      },
+      "Mid": {
+        "wins": 12,
+        "matches": 30
+      }
+    }
+  },
+  {
+    "id": "Blitzcrank",
+    "key": "53",
+    "name": "Blitzcrank",
+    "class": "Catcher",
+    "strengthByComp": {
+      "Siege": 2.7,
+      "Split": 0,
+      "Protect": 1.7,
+      "Catch": 5.6,
+      "Attack": 2.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 4,
+        "matches": 21
+      },
+      "Support": {
+        "wins": 18612,
+        "matches": 36590
+      },
+      "Bottom": {
+        "wins": 10,
+        "matches": 28
+      },
+      "Top": {
+        "wins": 7,
+        "matches": 34
+      },
+      "Mid": {
+        "wins": 10,
+        "matches": 44
+      }
+    }
+  },
+  {
+    "id": "Brand",
+    "key": "63",
+    "name": "Brand",
+    "class": "Burst Mage",
+    "strengthByComp": {
+      "Siege": 3.7,
+      "Split": 1.7,
+      "Protect": 0,
+      "Catch": 2.7,
+      "Attack": 5.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 112,
+        "matches": 252
+      },
+      "Support": {
+        "wins": 8502,
+        "matches": 17362
+      },
+      "Bottom": {
+        "wins": 265,
+        "matches": 496
+      },
+      "Top": {
+        "wins": 74,
+        "matches": 149
+      },
+      "Mid": {
+        "wins": 1190,
+        "matches": 2415
+      }
+    }
+  },
+  {
+    "id": "Braum",
+    "key": "201",
+    "name": "Braum",
+    "class": "Warden",
+    "strengthByComp": {
+      "Siege": 2.7,
+      "Split": 2.3,
+      "Protect": 4.3,
+      "Catch": 3,
+      "Attack": 2.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 2,
+        "matches": 6
+      },
+      "Support": {
+        "wins": 7369,
+        "matches": 14625
+      },
+      "Bottom": {
+        "wins": 13,
+        "matches": 28
+      },
+      "Top": {
+        "wins": 5,
+        "matches": 27
+      },
+      "Mid": {
+        "wins": 0,
+        "matches": 5
+      }
+    }
+  },
+  {
+    "id": "Caitlyn",
+    "key": "51",
+    "name": "Caitlyn",
+    "class": "Marksman",
+    "strengthByComp": {
+      "Siege": 4.3,
+      "Split": 2.7,
+      "Protect": 3.7,
+      "Catch": 0,
+      "Attack": 3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 0,
+        "matches": 2
+      },
+      "Support": {
+        "wins": 16,
+        "matches": 55
+      },
+      "Bottom": {
+        "wins": 29202,
+        "matches": 58322
+      },
+      "Top": {
+        "wins": 60,
+        "matches": 122
+      },
+      "Mid": {
+        "wins": 100,
+        "matches": 210
+      }
+    }
+  },
+  {
+    "id": "Camille",
+    "key": "164",
+    "name": "Camille",
+    "class": "Diver",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 4,
+      "Protect": 2,
+      "Catch": 3.7,
+      "Attack": 4
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 449,
+        "matches": 1046
+      },
+      "Support": {
+        "wins": 78,
+        "matches": 179
+      },
+      "Bottom": {
+        "wins": 17,
+        "matches": 40
+      },
+      "Top": {
+        "wins": 15833,
+        "matches": 31387
+      },
+      "Mid": {
+        "wins": 558,
+        "matches": 1149
+      }
+    }
+  },
+  {
+    "id": "Cassiopeia",
+    "key": "69",
+    "name": "Cassiopeia",
+    "class": "Battle Mage",
+    "strengthByComp": {
+      "Siege": 2,
+      "Split": 2.3,
+      "Protect": 5.3,
+      "Catch": 1.7,
+      "Attack": 3.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 1,
+        "matches": 2
+      },
+      "Support": {
+        "wins": 15,
+        "matches": 24
+      },
+      "Bottom": {
+        "wins": 491,
+        "matches": 914
+      },
+      "Top": {
+        "wins": 806,
+        "matches": 1610
+      },
+      "Mid": {
+        "wins": 4798,
+        "matches": 9604
+      }
+    }
+  },
+  {
+    "id": "Chogath",
+    "key": "31",
+    "name": "Cho'Gath",
+    "class": "Specialist",
+    "strengthByComp": {
+      "Siege": 3,
+      "Split": 1.7,
+      "Protect": 4.3,
+      "Catch": 2,
+      "Attack": 3.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 324,
+        "matches": 751
+      },
+      "Support": {
+        "wins": 167,
+        "matches": 393
+      },
+      "Bottom": {
+        "wins": 444,
+        "matches": 879
+      },
+      "Top": {
+        "wins": 9315,
+        "matches": 18273
+      },
+      "Mid": {
+        "wins": 1559,
+        "matches": 3075
+      }
+    }
+  },
+  {
+    "id": "Corki",
+    "key": "42",
+    "name": "Corki",
+    "class": "Marksman",
+    "strengthByComp": {
+      "Siege": 4.3,
+      "Split": 2.7,
+      "Protect": 4,
+      "Catch": 0,
+      "Attack": 2.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 0,
+        "matches": 1
+      },
+      "Support": {
+        "wins": 7,
+        "matches": 12
+      },
+      "Bottom": {
+        "wins": 221,
+        "matches": 464
+      },
+      "Top": {
+        "wins": 195,
+        "matches": 359
+      },
+      "Mid": {
+        "wins": 5206,
+        "matches": 10033
+      }
+    }
+  },
+  {
+    "id": "Darius",
+    "key": "122",
+    "name": "Darius",
+    "class": "Juggernaut",
+    "strengthByComp": {
+      "Siege": 1.7,
+      "Split": 4,
+      "Protect": 3.7,
+      "Catch": 1.7,
+      "Attack": 4
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 746,
+        "matches": 1610
+      },
+      "Support": {
+        "wins": 31,
+        "matches": 99
+      },
+      "Bottom": {
+        "wins": 84,
+        "matches": 155
+      },
+      "Top": {
+        "wins": 18440,
+        "matches": 36890
+      },
+      "Mid": {
+        "wins": 720,
+        "matches": 1420
+      }
+    }
+  },
+  {
+    "id": "Diana",
+    "key": "131",
+    "name": "Diana",
+    "class": "Diver",
+    "strengthByComp": {
+      "Siege": 2,
+      "Split": 3,
+      "Protect": 1.7,
+      "Catch": 4.3,
+      "Attack": 4
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 28132,
+        "matches": 57288
+      },
+      "Support": {
+        "wins": 11,
+        "matches": 33
+      },
+      "Bottom": {
+        "wins": 19,
+        "matches": 38
+      },
+      "Top": {
+        "wins": 218,
+        "matches": 474
+      },
+      "Mid": {
+        "wins": 9494,
+        "matches": 18756
+      }
+    }
+  },
+  {
+    "id": "Draven",
+    "key": "119",
+    "name": "Draven",
+    "class": "Marksman",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 0,
+      "Protect": 5.9,
+      "Catch": 0,
+      "Attack": 3.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 5,
+        "matches": 17
+      },
+      "Support": {
+        "wins": 2,
+        "matches": 17
+      },
+      "Bottom": {
+        "wins": 12714,
+        "matches": 25126
+      },
+      "Top": {
+        "wins": 221,
+        "matches": 455
+      },
+      "Mid": {
+        "wins": 144,
+        "matches": 310
+      }
+    }
+  },
+  {
+    "id": "DrMundo",
+    "key": "36",
+    "name": "Dr. Mundo",
+    "class": "Juggernaut",
+    "strengthByComp": {
+      "Siege": 3.7,
+      "Split": 2,
+      "Protect": 3.7,
+      "Catch": 2.7,
+      "Attack": 3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 2895,
+        "matches": 6043
+      },
+      "Support": {
+        "wins": 26,
+        "matches": 71
+      },
+      "Bottom": {
+        "wins": 22,
+        "matches": 48
+      },
+      "Top": {
+        "wins": 2100,
+        "matches": 4246
+      },
+      "Mid": {
+        "wins": 70,
+        "matches": 155
+      }
+    }
+  },
+  {
+    "id": "Ekko",
+    "key": "245",
+    "name": "Ekko",
+    "class": "Skirmisher",
+    "strengthByComp": {
+      "Siege": 2.3,
+      "Split": 3.3,
+      "Protect": 2,
+      "Catch": 4,
+      "Attack": 3.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 12516,
+        "matches": 24978
+      },
+      "Support": {
+        "wins": 32,
+        "matches": 72
+      },
+      "Bottom": {
+        "wins": 33,
+        "matches": 61
+      },
+      "Top": {
+        "wins": 371,
+        "matches": 693
+      },
+      "Mid": {
+        "wins": 11784,
+        "matches": 22892
+      }
+    }
+  },
+  {
+    "id": "Elise",
+    "key": "60",
+    "name": "Elise",
+    "class": "Specialist",
+    "strengthByComp": {
+      "Siege": 3.3,
+      "Split": 3,
+      "Protect": 1.7,
+      "Catch": 4.3,
+      "Attack": 2.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 21304,
+        "matches": 40811
+      },
+      "Support": {
+        "wins": 64,
+        "matches": 137
+      },
+      "Bottom": {
+        "wins": 2,
+        "matches": 7
+      },
+      "Top": {
+        "wins": 49,
+        "matches": 105
+      },
+      "Mid": {
+        "wins": 65,
+        "matches": 135
+      }
+    }
+  },
+  {
+    "id": "Evelynn",
+    "key": "28",
+    "name": "Evelynn",
+    "class": "Assassin",
+    "strengthByComp": {
+      "Siege": 1.7,
+      "Split": 4,
+      "Protect": 2,
+      "Catch": 4.3,
+      "Attack": 3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 13729,
+        "matches": 26839
+      },
+      "Support": {
+        "wins": 5,
+        "matches": 20
+      },
+      "Bottom": {
+        "wins": 3,
+        "matches": 7
+      },
+      "Top": {
+        "wins": 16,
+        "matches": 35
+      },
+      "Mid": {
+        "wins": 10,
+        "matches": 31
+      }
+    }
+  },
+  {
+    "id": "Ezreal",
+    "key": "81",
+    "name": "Ezreal",
+    "class": "Marksman",
+    "strengthByComp": {
+      "Siege": 5.6,
+      "Split": 2.3,
+      "Protect": 2,
+      "Catch": 2,
+      "Attack": 2.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 28,
+        "matches": 91
+      },
+      "Support": {
+        "wins": 90,
+        "matches": 212
+      },
+      "Bottom": {
+        "wins": 47118,
+        "matches": 99076
+      },
+      "Top": {
+        "wins": 56,
+        "matches": 159
+      },
+      "Mid": {
+        "wins": 284,
+        "matches": 673
+      }
+    }
+  },
+  {
+    "id": "Fiddlesticks",
+    "key": "9",
+    "name": "Fiddlesticks",
+    "class": "Specialist",
+    "strengthByComp": {
+      "Siege": 2.3,
+      "Split": 1.7,
+      "Protect": 3.3,
+      "Catch": 3.3,
+      "Attack": 4.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 15329,
+        "matches": 29060
+      },
+      "Support": {
+        "wins": 770,
+        "matches": 1556
+      },
+      "Bottom": {
+        "wins": 5,
+        "matches": 15
+      },
+      "Top": {
+        "wins": 80,
+        "matches": 157
+      },
+      "Mid": {
+        "wins": 105,
+        "matches": 221
+      }
+    }
+  },
+  {
+    "id": "Fiora",
+    "key": "114",
+    "name": "Fiora",
+    "class": "Skirmisher",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 6.5,
+      "Protect": 0,
+      "Catch": 0,
+      "Attack": 0
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 7,
+        "matches": 19
+      },
+      "Support": {
+        "wins": 1,
+        "matches": 6
+      },
+      "Bottom": {
+        "wins": 13,
+        "matches": 34
+      },
+      "Top": {
+        "wins": 13153,
+        "matches": 26058
+      },
+      "Mid": {
+        "wins": 293,
+        "matches": 572
+      }
+    }
+  },
+  {
+    "id": "Fizz",
+    "key": "105",
+    "name": "Fizz",
+    "class": "Assassin",
+    "strengthByComp": {
+      "Siege": 1.7,
+      "Split": 3.7,
+      "Protect": 1.7,
+      "Catch": 5,
+      "Attack": 2.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 17,
+        "matches": 49
+      },
+      "Support": {
+        "wins": 17,
+        "matches": 45
+      },
+      "Bottom": {
+        "wins": 23,
+        "matches": 44
+      },
+      "Top": {
+        "wins": 168,
+        "matches": 354
+      },
+      "Mid": {
+        "wins": 9507,
+        "matches": 18764
+      }
+    }
+  },
+  {
+    "id": "Galio",
+    "key": "3",
+    "name": "Galio",
+    "class": "Warden",
+    "strengthByComp": {
+      "Siege": 3.3,
+      "Split": 2.3,
+      "Protect": 3,
+      "Catch": 2.3,
+      "Attack": 4
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 3,
+        "matches": 20
+      },
+      "Support": {
+        "wins": 6545,
+        "matches": 13580
+      },
+      "Bottom": {
+        "wins": 91,
+        "matches": 172
+      },
+      "Top": {
+        "wins": 216,
+        "matches": 459
+      },
+      "Mid": {
+        "wins": 9022,
+        "matches": 17420
+      }
+    }
+  },
+  {
+    "id": "Gangplank",
+    "key": "41",
+    "name": "Gangplank",
+    "class": "Specialist",
+    "strengthByComp": {
+      "Siege": 3.3,
+      "Split": 3.3,
+      "Protect": 3.3,
+      "Catch": 0,
+      "Attack": 4
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 1,
+        "matches": 11
+      },
+      "Support": {
+        "wins": 4,
+        "matches": 21
+      },
+      "Bottom": {
+        "wins": 11,
+        "matches": 29
+      },
+      "Top": {
+        "wins": 9922,
+        "matches": 21284
+      },
+      "Mid": {
+        "wins": 1386,
+        "matches": 3038
+      }
+    }
+  },
+  {
+    "id": "Garen",
+    "key": "86",
+    "name": "Garen",
+    "class": "Juggernaut",
+    "strengthByComp": {
+      "Siege": 2.3,
+      "Split": 4,
+      "Protect": 3.7,
+      "Catch": 2,
+      "Attack": 3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 209,
+        "matches": 516
+      },
+      "Support": {
+        "wins": 21,
+        "matches": 80
+      },
+      "Bottom": {
+        "wins": 61,
+        "matches": 163
+      },
+      "Top": {
+        "wins": 14112,
+        "matches": 28014
+      },
+      "Mid": {
+        "wins": 1759,
+        "matches": 3435
+      }
+    }
+  },
+  {
+    "id": "Gnar",
+    "key": "150",
+    "name": "Gnar",
+    "class": "Specialist",
+    "strengthByComp": {
+      "Siege": 3,
+      "Split": 3.3,
+      "Protect": 2,
+      "Catch": 2.3,
+      "Attack": 4
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 7,
+        "matches": 17
+      },
+      "Support": {
+        "wins": 8,
+        "matches": 17
+      },
+      "Bottom": {
+        "wins": 37,
+        "matches": 89
+      },
+      "Top": {
+        "wins": 18683,
+        "matches": 37484
+      },
+      "Mid": {
+        "wins": 167,
+        "matches": 350
+      }
+    }
+  },
+  {
+    "id": "Gragas",
+    "key": "79",
+    "name": "Gragas",
+    "class": "Vanguard",
+    "strengthByComp": {
+      "Siege": 3,
+      "Split": 1.7,
+      "Protect": 3,
+      "Catch": 4.3,
+      "Attack": 3.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 5496,
+        "matches": 10896
+      },
+      "Support": {
+        "wins": 2168,
+        "matches": 4297
+      },
+      "Bottom": {
+        "wins": 51,
+        "matches": 94
+      },
+      "Top": {
+        "wins": 1717,
+        "matches": 3526
+      },
+      "Mid": {
+        "wins": 966,
+        "matches": 1891
+      }
+    }
+  },
+  {
+    "id": "Graves",
+    "key": "104",
+    "name": "Graves",
+    "class": "Specialist",
+    "strengthByComp": {
+      "Siege": 2.3,
+      "Split": 3.7,
+      "Protect": 2,
+      "Catch": 2.3,
+      "Attack": 4.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 9858,
+        "matches": 21417
+      },
+      "Support": {
+        "wins": 4,
+        "matches": 16
+      },
+      "Bottom": {
+        "wins": 95,
+        "matches": 223
+      },
+      "Top": {
+        "wins": 392,
+        "matches": 805
+      },
+      "Mid": {
+        "wins": 667,
+        "matches": 1298
+      }
+    }
+  },
+  {
+    "id": "Hecarim",
+    "key": "120",
+    "name": "Hecarim",
+    "class": "Diver",
+    "strengthByComp": {
+      "Siege": 1.7,
+      "Split": 2.3,
+      "Protect": 2.3,
+      "Catch": 5,
+      "Attack": 3.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 6147,
+        "matches": 13499
+      },
+      "Support": {
+        "wins": 4,
+        "matches": 13
+      },
+      "Bottom": {
+        "wins": 2,
+        "matches": 5
+      },
+      "Top": {
+        "wins": 87,
+        "matches": 206
+      },
+      "Mid": {
+        "wins": 6,
+        "matches": 17
+      }
+    }
+  },
+  {
+    "id": "Heimerdinger",
+    "key": "74",
+    "name": "Heimerdinger",
+    "class": "Specialist",
+    "strengthByComp": {
+      "Siege": 3.7,
+      "Split": 3,
+      "Protect": 3.7,
+      "Catch": 2.3,
+      "Attack": 2.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 3,
+        "matches": 14
+      },
+      "Support": {
+        "wins": 436,
+        "matches": 907
+      },
+      "Bottom": {
+        "wins": 850,
+        "matches": 1654
+      },
+      "Top": {
+        "wins": 1934,
+        "matches": 3846
+      },
+      "Mid": {
+        "wins": 1637,
+        "matches": 3136
+      }
+    }
+  },
+  {
+    "id": "Illaoi",
+    "key": "420",
+    "name": "Illaoi",
+    "class": "Juggernaut",
+    "strengthByComp": {
+      "Siege": 3,
+      "Split": 4.3,
+      "Protect": 3.3,
+      "Catch": 2,
+      "Attack": 2.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 0,
+        "matches": 3
+      },
+      "Support": {
+        "wins": 6,
+        "matches": 19
+      },
+      "Bottom": {
+        "wins": 3,
+        "matches": 6
+      },
+      "Top": {
+        "wins": 3314,
+        "matches": 6793
+      },
+      "Mid": {
+        "wins": 116,
+        "matches": 247
+      }
+    }
+  },
+  {
+    "id": "Irelia",
+    "key": "39",
+    "name": "Irelia",
+    "class": "Skirmisher",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 4.7,
+      "Protect": 0,
+      "Catch": 3.3,
+      "Attack": 4
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 8,
+        "matches": 34
+      },
+      "Support": {
+        "wins": 23,
+        "matches": 68
+      },
+      "Bottom": {
+        "wins": 143,
+        "matches": 355
+      },
+      "Top": {
+        "wins": 13819,
+        "matches": 29830
+      },
+      "Mid": {
+        "wins": 8397,
+        "matches": 18839
+      }
+    }
+  },
+  {
+    "id": "Ivern",
+    "key": "427",
+    "name": "Ivern",
+    "class": "Catcher",
+    "strengthByComp": {
+      "Siege": 2.3,
+      "Split": 1.7,
+      "Protect": 4.3,
+      "Catch": 3.7,
+      "Attack": 3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 4527,
+        "matches": 8825
+      },
+      "Support": {
+        "wins": 161,
+        "matches": 320
+      },
+      "Bottom": {
+        "wins": 6,
+        "matches": 19
+      },
+      "Top": {
+        "wins": 45,
+        "matches": 131
+      },
+      "Mid": {
+        "wins": 86,
+        "matches": 191
+      }
+    }
+  },
+  {
+    "id": "Janna",
+    "key": "40",
+    "name": "Janna",
+    "class": "Enchanter",
+    "strengthByComp": {
+      "Siege": 4,
+      "Split": 3.7,
+      "Protect": 4.3,
+      "Catch": 0,
+      "Attack": 1.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 1,
+        "matches": 10
+      },
+      "Support": {
+        "wins": 16091,
+        "matches": 31742
+      },
+      "Bottom": {
+        "wins": 7,
+        "matches": 20
+      },
+      "Top": {
+        "wins": 25,
+        "matches": 65
+      },
+      "Mid": {
+        "wins": 20,
+        "matches": 57
+      }
+    }
+  },
+  {
+    "id": "JarvanIV",
+    "key": "59",
+    "name": "Jarvan IV",
+    "class": "Diver",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 2.3,
+      "Protect": 1.7,
+      "Catch": 4.7,
+      "Attack": 4.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 6541,
+        "matches": 13235
+      },
+      "Support": {
+        "wins": 268,
+        "matches": 629
+      },
+      "Bottom": {
+        "wins": 9,
+        "matches": 18
+      },
+      "Top": {
+        "wins": 116,
+        "matches": 276
+      },
+      "Mid": {
+        "wins": 98,
+        "matches": 199
+      }
+    }
+  },
+  {
+    "id": "Jax",
+    "key": "24",
+    "name": "Jax",
+    "class": "Skirmisher",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 5.3,
+      "Protect": 0,
+      "Catch": 3.3,
+      "Attack": 3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 1161,
+        "matches": 2412
+      },
+      "Support": {
+        "wins": 34,
+        "matches": 77
+      },
+      "Bottom": {
+        "wins": 20,
+        "matches": 43
+      },
+      "Top": {
+        "wins": 14109,
+        "matches": 27972
+      },
+      "Mid": {
+        "wins": 252,
+        "matches": 524
+      }
+    }
+  },
+  {
+    "id": "Jayce",
+    "key": "126",
+    "name": "Jayce",
+    "class": "Specialist",
+    "strengthByComp": {
+      "Siege": 5.3,
+      "Split": 4.7,
+      "Protect": 0,
+      "Catch": 0,
+      "Attack": 2
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 22,
+        "matches": 49
+      },
+      "Support": {
+        "wins": 8,
+        "matches": 24
+      },
+      "Bottom": {
+        "wins": 58,
+        "matches": 174
+      },
+      "Top": {
+        "wins": 10752,
+        "matches": 22639
+      },
+      "Mid": {
+        "wins": 3150,
+        "matches": 6435
+      }
+    }
+  },
+  {
+    "id": "Jhin",
+    "key": "202",
+    "name": "Jhin",
+    "class": "Marksman",
+    "strengthByComp": {
+      "Siege": 3.7,
+      "Split": 2.3,
+      "Protect": 1.7,
+      "Catch": 4.7,
+      "Attack": 2.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 2,
+        "matches": 5
+      },
+      "Support": {
+        "wins": 18,
+        "matches": 36
+      },
+      "Bottom": {
+        "wins": 48538,
+        "matches": 94623
+      },
+      "Top": {
+        "wins": 30,
+        "matches": 78
+      },
+      "Mid": {
+        "wins": 150,
+        "matches": 314
+      }
+    }
+  },
+  {
+    "id": "Jinx",
+    "key": "222",
+    "name": "Jinx",
+    "class": "Marksman",
+    "strengthByComp": {
+      "Siege": 2.3,
+      "Split": 2.3,
+      "Protect": 5.3,
+      "Catch": 0,
+      "Attack": 3.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 4,
+        "matches": 15
+      },
+      "Support": {
+        "wins": 6,
+        "matches": 33
+      },
+      "Bottom": {
+        "wins": 58690,
+        "matches": 116169
+      },
+      "Top": {
+        "wins": 9,
+        "matches": 21
+      },
+      "Mid": {
+        "wins": 20,
+        "matches": 55
+      }
+    }
+  },
+  {
+    "id": "Kaisa",
+    "key": "145",
+    "name": "Kai'Sa",
+    "class": "Marksman",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 2,
+      "Protect": 4.7,
+      "Catch": 2.7,
+      "Attack": 4
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 18,
+        "matches": 60
+      },
+      "Support": {
+        "wins": 21,
+        "matches": 54
+      },
+      "Bottom": {
+        "wins": 80091,
+        "matches": 161037
+      },
+      "Top": {
+        "wins": 31,
+        "matches": 63
+      },
+      "Mid": {
+        "wins": 97,
+        "matches": 230
+      }
+    }
+  },
+  {
+    "id": "Kalista",
+    "key": "429",
+    "name": "Kalista",
+    "class": "Marksman",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 2.7,
+      "Protect": 4.7,
+      "Catch": 2.3,
+      "Attack": 3.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 0,
+        "matches": 6
+      },
+      "Support": {
+        "wins": 1,
+        "matches": 13
+      },
+      "Bottom": {
+        "wins": 4138,
+        "matches": 8362
+      },
+      "Top": {
+        "wins": 560,
+        "matches": 1257
+      },
+      "Mid": {
+        "wins": 142,
+        "matches": 283
+      }
+    }
+  },
+  {
+    "id": "Karma",
+    "key": "43",
+    "name": "Karma",
+    "class": "Enchanter",
+    "strengthByComp": {
+      "Siege": 4.3,
+      "Split": 3.7,
+      "Protect": 3.7,
+      "Catch": 1.7,
+      "Attack": 1.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 1,
+        "matches": 21
+      },
+      "Support": {
+        "wins": 23228,
+        "matches": 48228
+      },
+      "Bottom": {
+        "wins": 281,
+        "matches": 527
+      },
+      "Top": {
+        "wins": 1320,
+        "matches": 2733
+      },
+      "Mid": {
+        "wins": 1398,
+        "matches": 2846
+      }
+    }
+  },
+  {
+    "id": "Karthus",
+    "key": "30",
+    "name": "Karthus",
+    "class": "Battle Mage",
+    "strengthByComp": {
+      "Siege": 4.3,
+      "Split": 2.3,
+      "Protect": 3,
+      "Catch": 2.3,
+      "Attack": 3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 6480,
+        "matches": 12907
+      },
+      "Support": {
+        "wins": 116,
+        "matches": 243
+      },
+      "Bottom": {
+        "wins": 768,
+        "matches": 1369
+      },
+      "Top": {
+        "wins": 165,
+        "matches": 344
+      },
+      "Mid": {
+        "wins": 686,
+        "matches": 1391
+      }
+    }
+  },
+  {
+    "id": "Kassadin",
+    "key": "38",
+    "name": "Kassadin",
+    "class": "Assassin",
+    "strengthByComp": {
+      "Siege": 2.3,
+      "Split": 4.3,
+      "Protect": 0,
+      "Catch": 4.3,
+      "Attack": 2.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 9,
+        "matches": 27
+      },
+      "Support": {
+        "wins": 3,
+        "matches": 20
+      },
+      "Bottom": {
+        "wins": 9,
+        "matches": 18
+      },
+      "Top": {
+        "wins": 396,
+        "matches": 860
+      },
+      "Mid": {
+        "wins": 13273,
+        "matches": 26249
+      }
+    }
+  },
+  {
+    "id": "Katarina",
+    "key": "55",
+    "name": "Katarina",
+    "class": "Assassin",
+    "strengthByComp": {
+      "Siege": 2.7,
+      "Split": 2.3,
+      "Protect": 0,
+      "Catch": 4.3,
+      "Attack": 4.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 13,
+        "matches": 29
+      },
+      "Support": {
+        "wins": 38,
+        "matches": 99
+      },
+      "Bottom": {
+        "wins": 188,
+        "matches": 373
+      },
+      "Top": {
+        "wins": 646,
+        "matches": 1271
+      },
+      "Mid": {
+        "wins": 27390,
+        "matches": 53809
+      }
+    }
+  },
+  {
+    "id": "Kayle",
+    "key": "10",
+    "name": "Kayle",
+    "class": "Specialist",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 4.3,
+      "Protect": 4.7,
+      "Catch": 0,
+      "Attack": 3.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 23,
+        "matches": 58
+      },
+      "Support": {
+        "wins": 149,
+        "matches": 311
+      },
+      "Bottom": {
+        "wins": 115,
+        "matches": 235
+      },
+      "Top": {
+        "wins": 17134,
+        "matches": 33553
+      },
+      "Mid": {
+        "wins": 4267,
+        "matches": 8265
+      }
+    }
+  },
+  {
+    "id": "Kayn",
+    "key": "141",
+    "name": "Kayn",
+    "class": "Specialist",
+    "strengthByComp": {
+      "Siege": 1.7,
+      "Split": 3,
+      "Protect": 2.3,
+      "Catch": 4.3,
+      "Attack": 3.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 28029,
+        "matches": 55769
+      },
+      "Support": {
+        "wins": 5,
+        "matches": 18
+      },
+      "Bottom": {
+        "wins": 2,
+        "matches": 7
+      },
+      "Top": {
+        "wins": 287,
+        "matches": 605
+      },
+      "Mid": {
+        "wins": 179,
+        "matches": 339
+      }
+    }
+  },
+  {
+    "id": "Kennen",
+    "key": "85",
+    "name": "Kennen",
+    "class": "Specialist",
+    "strengthByComp": {
+      "Siege": 1.7,
+      "Split": 3,
+      "Protect": 2.3,
+      "Catch": 2.3,
+      "Attack": 5.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 6,
+        "matches": 11
+      },
+      "Support": {
+        "wins": 124,
+        "matches": 311
+      },
+      "Bottom": {
+        "wins": 33,
+        "matches": 86
+      },
+      "Top": {
+        "wins": 5842,
+        "matches": 11693
+      },
+      "Mid": {
+        "wins": 1312,
+        "matches": 2385
+      }
+    }
+  },
+  {
+    "id": "Khazix",
+    "key": "121",
+    "name": "Kha'Zix",
+    "class": "Assassin",
+    "strengthByComp": {
+      "Siege": 2,
+      "Split": 3.7,
+      "Protect": 1.7,
+      "Catch": 5.3,
+      "Attack": 2.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 27721,
+        "matches": 53759
+      },
+      "Support": {
+        "wins": 5,
+        "matches": 18
+      },
+      "Bottom": {
+        "wins": 4,
+        "matches": 6
+      },
+      "Top": {
+        "wins": 96,
+        "matches": 205
+      },
+      "Mid": {
+        "wins": 99,
+        "matches": 198
+      }
+    }
+  },
+  {
+    "id": "Kindred",
+    "key": "203",
+    "name": "Kindred",
+    "class": "Marksman",
+    "strengthByComp": {
+      "Siege": 2.3,
+      "Split": 2.3,
+      "Protect": 4.3,
+      "Catch": 2.3,
+      "Attack": 3.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 17883,
+        "matches": 35469
+      },
+      "Support": {
+        "wins": 7,
+        "matches": 15
+      },
+      "Bottom": {
+        "wins": 487,
+        "matches": 1005
+      },
+      "Top": {
+        "wins": 94,
+        "matches": 215
+      },
+      "Mid": {
+        "wins": 328,
+        "matches": 655
+      }
+    }
+  },
+  {
+    "id": "Kled",
+    "key": "240",
+    "name": "Kled",
+    "class": "Skirmisher",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 4.3,
+      "Protect": 0,
+      "Catch": 4.3,
+      "Attack": 3.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 79,
+        "matches": 158
+      },
+      "Support": {
+        "wins": 44,
+        "matches": 103
+      },
+      "Bottom": {
+        "wins": 28,
+        "matches": 60
+      },
+      "Top": {
+        "wins": 7614,
+        "matches": 14576
+      },
+      "Mid": {
+        "wins": 1023,
+        "matches": 1952
+      }
+    }
+  },
+  {
+    "id": "KogMaw",
+    "key": "96",
+    "name": "Kog'Maw",
+    "class": "Marksman",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 0,
+      "Protect": 6.2,
+      "Catch": 0,
+      "Attack": 2
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 8,
+        "matches": 27
+      },
+      "Support": {
+        "wins": 34,
+        "matches": 80
+      },
+      "Bottom": {
+        "wins": 12112,
+        "matches": 23817
+      },
+      "Top": {
+        "wins": 51,
+        "matches": 120
+      },
+      "Mid": {
+        "wins": 699,
+        "matches": 1519
+      }
+    }
+  },
+  {
+    "id": "Leblanc",
+    "key": "7",
+    "name": "LeBlanc",
+    "class": "Burst Mage",
+    "strengthByComp": {
+      "Siege": 2,
+      "Split": 4.3,
+      "Protect": 0,
+      "Catch": 4.7,
+      "Attack": 2.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 3,
+        "matches": 10
+      },
+      "Support": {
+        "wins": 353,
+        "matches": 743
+      },
+      "Bottom": {
+        "wins": 18,
+        "matches": 43
+      },
+      "Top": {
+        "wins": 124,
+        "matches": 240
+      },
+      "Mid": {
+        "wins": 13672,
+        "matches": 27523
+      }
+    }
+  },
+  {
+    "id": "LeeSin",
+    "key": "64",
+    "name": "Lee Sin",
+    "class": "Diver",
+    "strengthByComp": {
+      "Siege": 2,
+      "Split": 1.7,
+      "Protect": 2,
+      "Catch": 5.3,
+      "Attack": 3.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 51365,
+        "matches": 101829
+      },
+      "Support": {
+        "wins": 270,
+        "matches": 595
+      },
+      "Bottom": {
+        "wins": 102,
+        "matches": 208
+      },
+      "Top": {
+        "wins": 21015,
+        "matches": 42214
+      },
+      "Mid": {
+        "wins": 6018,
+        "matches": 11592
+      }
+    }
+  },
+  {
+    "id": "Leona",
+    "key": "89",
+    "name": "Leona",
+    "class": "Vanguard",
+    "strengthByComp": {
+      "Siege": 2.7,
+      "Split": 0,
+      "Protect": 2.3,
+      "Catch": 4.3,
+      "Attack": 4.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 5,
+        "matches": 18
+      },
+      "Support": {
+        "wins": 33212,
+        "matches": 64405
+      },
+      "Bottom": {
+        "wins": 32,
+        "matches": 74
+      },
+      "Top": {
+        "wins": 26,
+        "matches": 75
+      },
+      "Mid": {
+        "wins": 8,
+        "matches": 27
+      }
+    }
+  },
+  {
+    "id": "Lissandra",
+    "key": "127",
+    "name": "Lissandra",
+    "class": "Specialist",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 2.7,
+      "Protect": 0,
+      "Catch": 3.3,
+      "Attack": 5.6
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 2,
+        "matches": 8
+      },
+      "Support": {
+        "wins": 95,
+        "matches": 208
+      },
+      "Bottom": {
+        "wins": 33,
+        "matches": 65
+      },
+      "Top": {
+        "wins": 383,
+        "matches": 733
+      },
+      "Mid": {
+        "wins": 5777,
+        "matches": 11500
+      }
+    }
+  },
+  {
+    "id": "Lucian",
+    "key": "236",
+    "name": "Lucian",
+    "class": "Marksman",
+    "strengthByComp": {
+      "Siege": 2,
+      "Split": 3.3,
+      "Protect": 3.7,
+      "Catch": 2,
+      "Attack": 3.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 8,
+        "matches": 33
+      },
+      "Support": {
+        "wins": 17,
+        "matches": 59
+      },
+      "Bottom": {
+        "wins": 14769,
+        "matches": 31366
+      },
+      "Top": {
+        "wins": 2266,
+        "matches": 4868
+      },
+      "Mid": {
+        "wins": 9730,
+        "matches": 21275
+      }
+    }
+  },
+  {
+    "id": "Lulu",
+    "key": "117",
+    "name": "Lulu",
+    "class": "Enchanter",
+    "strengthByComp": {
+      "Siege": 4.3,
+      "Split": 3.3,
+      "Protect": 4.3,
+      "Catch": 0,
+      "Attack": 1.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 3,
+        "matches": 11
+      },
+      "Support": {
+        "wins": 49145,
+        "matches": 95996
+      },
+      "Bottom": {
+        "wins": 39,
+        "matches": 101
+      },
+      "Top": {
+        "wins": 707,
+        "matches": 1455
+      },
+      "Mid": {
+        "wins": 721,
+        "matches": 1382
+      }
+    }
+  },
+  {
+    "id": "Lux",
+    "key": "99",
+    "name": "Lux",
+    "class": "Burst Mage",
+    "strengthByComp": {
+      "Siege": 4.3,
+      "Split": 0,
+      "Protect": 2,
+      "Catch": 4,
+      "Attack": 3.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 4,
+        "matches": 24
+      },
+      "Support": {
+        "wins": 14540,
+        "matches": 29451
+      },
+      "Bottom": {
+        "wins": 419,
+        "matches": 796
+      },
+      "Top": {
+        "wins": 72,
+        "matches": 135
+      },
+      "Mid": {
+        "wins": 11849,
+        "matches": 23041
+      }
+    }
+  },
+  {
+    "id": "Malphite",
+    "key": "54",
+    "name": "Malphite",
+    "class": "Vanguard",
+    "strengthByComp": {
+      "Siege": 2.3,
+      "Split": 0,
+      "Protect": 2,
+      "Catch": 4.3,
+      "Attack": 5
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 195,
+        "matches": 485
+      },
+      "Support": {
+        "wins": 656,
+        "matches": 1446
+      },
+      "Bottom": {
+        "wins": 49,
+        "matches": 109
+      },
+      "Top": {
+        "wins": 12623,
+        "matches": 25292
+      },
+      "Mid": {
+        "wins": 2138,
+        "matches": 4247
+      }
+    }
+  },
+  {
+    "id": "Malzahar",
+    "key": "90",
+    "name": "Malzahar",
+    "class": "Battle Mage",
+    "strengthByComp": {
+      "Siege": 2.3,
+      "Split": 2,
+      "Protect": 2.3,
+      "Catch": 5.3,
+      "Attack": 2.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 7,
+        "matches": 19
+      },
+      "Support": {
+        "wins": 100,
+        "matches": 216
+      },
+      "Bottom": {
+        "wins": 127,
+        "matches": 248
+      },
+      "Top": {
+        "wins": 437,
+        "matches": 848
+      },
+      "Mid": {
+        "wins": 8697,
+        "matches": 16890
+      }
+    }
+  },
+  {
+    "id": "Maokai",
+    "key": "57",
+    "name": "Maokai",
+    "class": "Vanguard",
+    "strengthByComp": {
+      "Siege": 2.7,
+      "Split": 2.3,
+      "Protect": 3,
+      "Catch": 3.3,
+      "Attack": 3.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 143,
+        "matches": 309
+      },
+      "Support": {
+        "wins": 7619,
+        "matches": 14518
+      },
+      "Bottom": {
+        "wins": 411,
+        "matches": 792
+      },
+      "Top": {
+        "wins": 2590,
+        "matches": 5012
+      },
+      "Mid": {
+        "wins": 63,
+        "matches": 122
+      }
+    }
+  },
+  {
+    "id": "MasterYi",
+    "key": "11",
+    "name": "Master Yi",
+    "class": "Skirmisher",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 3.7,
+      "Protect": 4.3,
+      "Catch": 2.7,
+      "Attack": 3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 11049,
+        "matches": 22824
+      },
+      "Support": {
+        "wins": 14,
+        "matches": 48
+      },
+      "Bottom": {
+        "wins": 36,
+        "matches": 90
+      },
+      "Top": {
+        "wins": 230,
+        "matches": 571
+      },
+      "Mid": {
+        "wins": 484,
+        "matches": 1018
+      }
+    }
+  },
+  {
+    "id": "MissFortune",
+    "key": "21",
+    "name": "Miss Fortune",
+    "class": "Marksman",
+    "strengthByComp": {
+      "Siege": 3,
+      "Split": 2,
+      "Protect": 0,
+      "Catch": 1.7,
+      "Attack": 5.6
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 0,
+        "matches": 3
+      },
+      "Support": {
+        "wins": 342,
+        "matches": 862
+      },
+      "Bottom": {
+        "wins": 13692,
+        "matches": 27016
+      },
+      "Top": {
+        "wins": 18,
+        "matches": 41
+      },
+      "Mid": {
+        "wins": 57,
+        "matches": 122
+      }
+    }
+  },
+  {
+    "id": "MonkeyKing",
+    "key": "62",
+    "name": "Wukong",
+    "class": "Diver",
+    "strengthByComp": {
+      "Siege": 1.7,
+      "Split": 1.7,
+      "Protect": 1.7,
+      "Catch": 3.7,
+      "Attack": 5.6
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 1521,
+        "matches": 2929
+      },
+      "Support": {
+        "wins": 154,
+        "matches": 318
+      },
+      "Bottom": {
+        "wins": 159,
+        "matches": 324
+      },
+      "Top": {
+        "wins": 13054,
+        "matches": 25294
+      },
+      "Mid": {
+        "wins": 1282,
+        "matches": 2438
+      }
+    }
+  },
+  {
+    "id": "Mordekaiser",
+    "key": "82",
+    "name": "Mordekaiser",
+    "class": "Juggernaut",
+    "strengthByComp": {
+      "Siege": 2.7,
+      "Split": 4,
+      "Protect": 3.7,
+      "Catch": 1.7,
+      "Attack": 2.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 2338,
+        "matches": 4802
+      },
+      "Support": {
+        "wins": 32,
+        "matches": 93
+      },
+      "Bottom": {
+        "wins": 71,
+        "matches": 148
+      },
+      "Top": {
+        "wins": 21144,
+        "matches": 41626
+      },
+      "Mid": {
+        "wins": 1201,
+        "matches": 2330
+      }
+    }
+  },
+  {
+    "id": "Morgana",
+    "key": "25",
+    "name": "Morgana",
+    "class": "Catcher",
+    "strengthByComp": {
+      "Siege": 3,
+      "Split": 0,
+      "Protect": 4,
+      "Catch": 4.3,
+      "Attack": 2.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 24776,
+        "matches": 47780
+      },
+      "Support": {
+        "wins": 13060,
+        "matches": 26011
+      },
+      "Bottom": {
+        "wins": 119,
+        "matches": 233
+      },
+      "Top": {
+        "wins": 98,
+        "matches": 205
+      },
+      "Mid": {
+        "wins": 960,
+        "matches": 1882
+      }
+    }
+  },
+  {
+    "id": "Nami",
+    "key": "267",
+    "name": "Nami",
+    "class": "Enchanter",
+    "strengthByComp": {
+      "Siege": 3.7,
+      "Split": 3,
+      "Protect": 3.3,
+      "Catch": 3,
+      "Attack": 2
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 0,
+        "matches": 8
+      },
+      "Support": {
+        "wins": 15556,
+        "matches": 30914
+      },
+      "Bottom": {
+        "wins": 18,
+        "matches": 28
+      },
+      "Top": {
+        "wins": 4,
+        "matches": 10
+      },
+      "Mid": {
+        "wins": 4,
+        "matches": 17
+      }
+    }
+  },
+  {
+    "id": "Nasus",
+    "key": "75",
+    "name": "Nasus",
+    "class": "Juggernaut",
+    "strengthByComp": {
+      "Siege": 2.7,
+      "Split": 4.3,
+      "Protect": 3.3,
+      "Catch": 2,
+      "Attack": 2.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 264,
+        "matches": 585
+      },
+      "Support": {
+        "wins": 20,
+        "matches": 56
+      },
+      "Bottom": {
+        "wins": 20,
+        "matches": 50
+      },
+      "Top": {
+        "wins": 9153,
+        "matches": 18151
+      },
+      "Mid": {
+        "wins": 555,
+        "matches": 1062
+      }
+    }
+  },
+  {
+    "id": "Nautilus",
+    "key": "111",
+    "name": "Nautilus",
+    "class": "Vanguard",
+    "strengthByComp": {
+      "Siege": 2,
+      "Split": 2.3,
+      "Protect": 3,
+      "Catch": 3.7,
+      "Attack": 4
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 42,
+        "matches": 124
+      },
+      "Support": {
+        "wins": 28602,
+        "matches": 56876
+      },
+      "Bottom": {
+        "wins": 135,
+        "matches": 252
+      },
+      "Top": {
+        "wins": 204,
+        "matches": 421
+      },
+      "Mid": {
+        "wins": 62,
+        "matches": 141
+      }
+    }
+  },
+  {
+    "id": "Neeko",
+    "key": "518",
+    "name": "Neeko",
+    "class": "Catcher",
+    "strengthByComp": {
+      "Siege": 3.3,
+      "Split": 0,
+      "Protect": 2.3,
+      "Catch": 3.3,
+      "Attack": 4.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 26,
+        "matches": 54
+      },
+      "Support": {
+        "wins": 1238,
+        "matches": 2595
+      },
+      "Bottom": {
+        "wins": 193,
+        "matches": 407
+      },
+      "Top": {
+        "wins": 488,
+        "matches": 969
+      },
+      "Mid": {
+        "wins": 3210,
+        "matches": 6329
+      }
+    }
+  },
+  {
+    "id": "Nidalee",
+    "key": "76",
+    "name": "Nidalee",
+    "class": "Specialist",
+    "strengthByComp": {
+      "Siege": 4.3,
+      "Split": 2.7,
+      "Protect": 2.3,
+      "Catch": 4,
+      "Attack": 1.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 13239,
+        "matches": 27766
+      },
+      "Support": {
+        "wins": 118,
+        "matches": 262
+      },
+      "Bottom": {
+        "wins": 9,
+        "matches": 21
+      },
+      "Top": {
+        "wins": 148,
+        "matches": 320
+      },
+      "Mid": {
+        "wins": 55,
+        "matches": 140
+      }
+    }
+  },
+  {
+    "id": "Nocturne",
+    "key": "56",
+    "name": "Nocturne",
+    "class": "Diver",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 3,
+      "Protect": 0,
+      "Catch": 5.6,
+      "Attack": 2.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 16417,
+        "matches": 32450
+      },
+      "Support": {
+        "wins": 5,
+        "matches": 19
+      },
+      "Bottom": {
+        "wins": 7,
+        "matches": 22
+      },
+      "Top": {
+        "wins": 3405,
+        "matches": 6482
+      },
+      "Mid": {
+        "wins": 1962,
+        "matches": 3731
+      }
+    }
+  },
+  {
+    "id": "Nunu",
+    "key": "20",
+    "name": "Nunu & Willump",
+    "class": "Warden",
+    "strengthByComp": {
+      "Siege": 3.7,
+      "Split": 0,
+      "Protect": 4,
+      "Catch": 3.3,
+      "Attack": 2.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 12571,
+        "matches": 24463
+      },
+      "Support": {
+        "wins": 144,
+        "matches": 410
+      },
+      "Bottom": {
+        "wins": 17,
+        "matches": 87
+      },
+      "Top": {
+        "wins": 60,
+        "matches": 215
+      },
+      "Mid": {
+        "wins": 622,
+        "matches": 1331
+      }
+    }
+  },
+  {
+    "id": "Olaf",
+    "key": "2",
+    "name": "Olaf",
+    "class": "Juggernaut",
+    "strengthByComp": {
+      "Siege": 2.3,
+      "Split": 2.3,
+      "Protect": 2.7,
+      "Catch": 4.7,
+      "Attack": 2.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 5662,
+        "matches": 11738
+      },
+      "Support": {
+        "wins": 5,
+        "matches": 13
+      },
+      "Bottom": {
+        "wins": 1,
+        "matches": 4
+      },
+      "Top": {
+        "wins": 695,
+        "matches": 1404
+      },
+      "Mid": {
+        "wins": 25,
+        "matches": 42
+      }
+    }
+  },
+  {
+    "id": "Orianna",
+    "key": "61",
+    "name": "Orianna",
+    "class": "Burst Mage",
+    "strengthByComp": {
+      "Siege": 3.3,
+      "Split": 1.7,
+      "Protect": 2.7,
+      "Catch": 2,
+      "Attack": 5
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 0,
+        "matches": 4
+      },
+      "Support": {
+        "wins": 328,
+        "matches": 702
+      },
+      "Bottom": {
+        "wins": 37,
+        "matches": 104
+      },
+      "Top": {
+        "wins": 105,
+        "matches": 233
+      },
+      "Mid": {
+        "wins": 9669,
+        "matches": 21080
+      }
+    }
+  },
+  {
+    "id": "Ornn",
+    "key": "516",
+    "name": "Ornn",
+    "class": "Vanguard",
+    "strengthByComp": {
+      "Siege": 2.3,
+      "Split": 2,
+      "Protect": 2.3,
+      "Catch": 3.3,
+      "Attack": 5.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 26,
+        "matches": 68
+      },
+      "Support": {
+        "wins": 81,
+        "matches": 172
+      },
+      "Bottom": {
+        "wins": 23,
+        "matches": 51
+      },
+      "Top": {
+        "wins": 12049,
+        "matches": 23089
+      },
+      "Mid": {
+        "wins": 293,
+        "matches": 559
+      }
+    }
+  },
+  {
+    "id": "Pantheon",
+    "key": "80",
+    "name": "Pantheon",
+    "class": "Diver",
+    "strengthByComp": {
+      "Siege": 2,
+      "Split": 2.7,
+      "Protect": 0,
+      "Catch": 5.3,
+      "Attack": 3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 591,
+        "matches": 1298
+      },
+      "Support": {
+        "wins": 4745,
+        "matches": 10098
+      },
+      "Bottom": {
+        "wins": 182,
+        "matches": 352
+      },
+      "Top": {
+        "wins": 2453,
+        "matches": 4754
+      },
+      "Mid": {
+        "wins": 6860,
+        "matches": 13103
+      }
+    }
+  },
+  {
+    "id": "Poppy",
+    "key": "78",
+    "name": "Poppy",
+    "class": "Warden",
+    "strengthByComp": {
+      "Siege": 4,
+      "Split": 2,
+      "Protect": 4,
+      "Catch": 1.7,
+      "Attack": 3.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 4767,
+        "matches": 9618
+      },
+      "Support": {
+        "wins": 1131,
+        "matches": 2267
+      },
+      "Bottom": {
+        "wins": 39,
+        "matches": 81
+      },
+      "Top": {
+        "wins": 4966,
+        "matches": 9679
+      },
+      "Mid": {
+        "wins": 168,
+        "matches": 310
+      }
+    }
+  },
+  {
+    "id": "Pyke",
+    "key": "555",
+    "name": "Pyke",
+    "class": "Catcher",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 0,
+      "Protect": 0,
+      "Catch": 5.9,
+      "Attack": 3.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 22,
+        "matches": 52
+      },
+      "Support": {
+        "wins": 19612,
+        "matches": 39316
+      },
+      "Bottom": {
+        "wins": 119,
+        "matches": 214
+      },
+      "Top": {
+        "wins": 74,
+        "matches": 140
+      },
+      "Mid": {
+        "wins": 1292,
+        "matches": 2409
+      }
+    }
+  },
+  {
+    "id": "Qiyana",
+    "key": "246",
+    "name": "Qiyana",
+    "class": "Assassin",
+    "strengthByComp": {
+      "Siege": 1.7,
+      "Split": 2.3,
+      "Protect": 0,
+      "Catch": 5.6,
+      "Attack": 3.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 370,
+        "matches": 851
+      },
+      "Support": {
+        "wins": 72,
+        "matches": 166
+      },
+      "Bottom": {
+        "wins": 74,
+        "matches": 164
+      },
+      "Top": {
+        "wins": 395,
+        "matches": 829
+      },
+      "Mid": {
+        "wins": 16863,
+        "matches": 33635
+      }
+    }
+  },
+  {
+    "id": "Quinn",
+    "key": "133",
+    "name": "Quinn",
+    "class": "Specialist",
+    "strengthByComp": {
+      "Siege": 1.7,
+      "Split": 4.3,
+      "Protect": 3.3,
+      "Catch": 3.7,
+      "Attack": 2.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 56,
+        "matches": 139
+      },
+      "Support": {
+        "wins": 21,
+        "matches": 53
+      },
+      "Bottom": {
+        "wins": 194,
+        "matches": 360
+      },
+      "Top": {
+        "wins": 3880,
+        "matches": 7578
+      },
+      "Mid": {
+        "wins": 441,
+        "matches": 889
+      }
+    }
+  },
+  {
+    "id": "Rakan",
+    "key": "497",
+    "name": "Rakan",
+    "class": "Catcher",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 0,
+      "Protect": 3,
+      "Catch": 3.7,
+      "Attack": 5.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 1,
+        "matches": 9
+      },
+      "Support": {
+        "wins": 10544,
+        "matches": 21176
+      },
+      "Bottom": {
+        "wins": 6,
+        "matches": 16
+      },
+      "Top": {
+        "wins": 9,
+        "matches": 26
+      },
+      "Mid": {
+        "wins": 99,
+        "matches": 177
+      }
+    }
+  },
+  {
+    "id": "Rammus",
+    "key": "33",
+    "name": "Rammus",
+    "class": "Vanguard",
+    "strengthByComp": {
+      "Siege": 2.3,
+      "Split": 1.7,
+      "Protect": 3,
+      "Catch": 4.3,
+      "Attack": 3.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 6511,
+        "matches": 13047
+      },
+      "Support": {
+        "wins": 85,
+        "matches": 201
+      },
+      "Bottom": {
+        "wins": 11,
+        "matches": 28
+      },
+      "Top": {
+        "wins": 171,
+        "matches": 386
+      },
+      "Mid": {
+        "wins": 30,
+        "matches": 66
+      }
+    }
+  },
+  {
+    "id": "RekSai",
+    "key": "421",
+    "name": "Rek'Sai",
+    "class": "Diver",
+    "strengthByComp": {
+      "Siege": 2,
+      "Split": 2.3,
+      "Protect": 1.7,
+      "Catch": 5.3,
+      "Attack": 3.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 10120,
+        "matches": 19835
+      },
+      "Support": {
+        "wins": 9,
+        "matches": 20
+      },
+      "Bottom": {
+        "wins": 14,
+        "matches": 19
+      },
+      "Top": {
+        "wins": 72,
+        "matches": 149
+      },
+      "Mid": {
+        "wins": 75,
+        "matches": 149
+      }
+    }
+  },
+  {
+    "id": "Renekton",
+    "key": "58",
+    "name": "Renekton",
+    "class": "Diver",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 4,
+      "Protect": 2.3,
+      "Catch": 3.7,
+      "Attack": 3.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 5,
+        "matches": 26
+      },
+      "Support": {
+        "wins": 15,
+        "matches": 33
+      },
+      "Bottom": {
+        "wins": 55,
+        "matches": 110
+      },
+      "Top": {
+        "wins": 17395,
+        "matches": 36003
+      },
+      "Mid": {
+        "wins": 3026,
+        "matches": 6098
+      }
+    }
+  },
+  {
+    "id": "Rengar",
+    "key": "107",
+    "name": "Rengar",
+    "class": "Diver",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 2.7,
+      "Protect": 1.7,
+      "Catch": 5.6,
+      "Attack": 3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 7950,
+        "matches": 16278
+      },
+      "Support": {
+        "wins": 50,
+        "matches": 133
+      },
+      "Bottom": {
+        "wins": 152,
+        "matches": 287
+      },
+      "Top": {
+        "wins": 3420,
+        "matches": 6776
+      },
+      "Mid": {
+        "wins": 8,
+        "matches": 20
+      }
+    }
+  },
+  {
+    "id": "Riven",
+    "key": "92",
+    "name": "Riven",
+    "class": "Skirmisher",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 5.3,
+      "Protect": 0,
+      "Catch": 3.7,
+      "Attack": 2.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 185,
+        "matches": 435
+      },
+      "Support": {
+        "wins": 21,
+        "matches": 41
+      },
+      "Bottom": {
+        "wins": 42,
+        "matches": 75
+      },
+      "Top": {
+        "wins": 19801,
+        "matches": 37728
+      },
+      "Mid": {
+        "wins": 1203,
+        "matches": 2261
+      }
+    }
+  },
+  {
+    "id": "Rumble",
+    "key": "68",
+    "name": "Rumble",
+    "class": "Battle Mage",
+    "strengthByComp": {
+      "Siege": 2.3,
+      "Split": 1.7,
+      "Protect": 3,
+      "Catch": 1.7,
+      "Attack": 5.6
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 26730,
+        "matches": 58067
+      },
+      "Support": {
+        "wins": 287,
+        "matches": 672
+      },
+      "Bottom": {
+        "wins": 90,
+        "matches": 164
+      },
+      "Top": {
+        "wins": 5298,
+        "matches": 10913
+      },
+      "Mid": {
+        "wins": 4726,
+        "matches": 9113
+      }
+    }
+  },
+  {
+    "id": "Ryze",
+    "key": "13",
+    "name": "Ryze",
+    "class": "Battle Mage",
+    "strengthByComp": {
+      "Siege": 2,
+      "Split": 5.3,
+      "Protect": 3.3,
+      "Catch": 0,
+      "Attack": 2.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 7,
+        "matches": 40
+      },
+      "Support": {
+        "wins": 5,
+        "matches": 21
+      },
+      "Bottom": {
+        "wins": 49,
+        "matches": 119
+      },
+      "Top": {
+        "wins": 1595,
+        "matches": 3623
+      },
+      "Mid": {
+        "wins": 5104,
+        "matches": 11543
+      }
+    }
+  },
+  {
+    "id": "Sejuani",
+    "key": "113",
+    "name": "Sejuani",
+    "class": "Vanguard",
+    "strengthByComp": {
+      "Siege": 1.7,
+      "Split": 2,
+      "Protect": 2.7,
+      "Catch": 4.3,
+      "Attack": 4.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 5757,
+        "matches": 11404
+      },
+      "Support": {
+        "wins": 58,
+        "matches": 128
+      },
+      "Bottom": {
+        "wins": 6,
+        "matches": 13
+      },
+      "Top": {
+        "wins": 501,
+        "matches": 1024
+      },
+      "Mid": {
+        "wins": 51,
+        "matches": 108
+      }
+    }
+  },
+  {
+    "id": "Senna",
+    "key": "235",
+    "name": "Senna",
+    "class": "Marksman",
+    "strengthByComp": {
+      "Siege": 4.3,
+      "Split": 0,
+      "Protect": 3.3,
+      "Catch": 3.3,
+      "Attack": 2.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 0,
+        "matches": 5
+      },
+      "Support": {
+        "wins": 38205,
+        "matches": 74527
+      },
+      "Bottom": {
+        "wins": 4778,
+        "matches": 9684
+      },
+      "Top": {
+        "wins": 122,
+        "matches": 246
+      },
+      "Mid": {
+        "wins": 55,
+        "matches": 123
+      }
+    }
+  },
+  {
+    "id": "Sett",
+    "key": "875",
+    "name": "Sett",
+    "class": "Juggernaut",
+    "strengthByComp": {
+      "Siege": 2.7,
+      "Split": 3.7,
+      "Protect": 4,
+      "Catch": 2,
+      "Attack": 2.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 470,
+        "matches": 1106
+      },
+      "Support": {
+        "wins": 6183,
+        "matches": 13521
+      },
+      "Bottom": {
+        "wins": 796,
+        "matches": 1475
+      },
+      "Top": {
+        "wins": 32693,
+        "matches": 64756
+      },
+      "Mid": {
+        "wins": 3790,
+        "matches": 7310
+      }
+    }
+  },
+  {
+    "id": "Shaco",
+    "key": "35",
+    "name": "Shaco",
+    "class": "Assassin",
+    "strengthByComp": {
+      "Siege": 2.7,
+      "Split": 3.3,
+      "Protect": 2.7,
+      "Catch": 4.3,
+      "Attack": 2.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 23067,
+        "matches": 44333
+      },
+      "Support": {
+        "wins": 4924,
+        "matches": 9650
+      },
+      "Bottom": {
+        "wins": 13,
+        "matches": 31
+      },
+      "Top": {
+        "wins": 292,
+        "matches": 693
+      },
+      "Mid": {
+        "wins": 64,
+        "matches": 132
+      }
+    }
+  },
+  {
+    "id": "Shen",
+    "key": "98",
+    "name": "Shen",
+    "class": "Warden",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 3.3,
+      "Protect": 4,
+      "Catch": 3.3,
+      "Attack": 3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 254,
+        "matches": 563
+      },
+      "Support": {
+        "wins": 1437,
+        "matches": 3017
+      },
+      "Bottom": {
+        "wins": 115,
+        "matches": 183
+      },
+      "Top": {
+        "wins": 24236,
+        "matches": 46597
+      },
+      "Mid": {
+        "wins": 420,
+        "matches": 776
+      }
+    }
+  },
+  {
+    "id": "Shyvana",
+    "key": "102",
+    "name": "Shyvana",
+    "class": "Juggernaut",
+    "strengthByComp": {
+      "Siege": 2.3,
+      "Split": 3,
+      "Protect": 3.7,
+      "Catch": 2,
+      "Attack": 4
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 2957,
+        "matches": 6099
+      },
+      "Support": {
+        "wins": 0,
+        "matches": 3
+      },
+      "Top": {
+        "wins": 462,
+        "matches": 940
+      },
+      "Mid": {
+        "wins": 48,
+        "matches": 100
+      }
+    }
+  },
+  {
+    "id": "Singed",
+    "key": "27",
+    "name": "Singed",
+    "class": "Specialist",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 5.3,
+      "Protect": 2.3,
+      "Catch": 2.7,
+      "Attack": 2.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 78,
+        "matches": 189
+      },
+      "Support": {
+        "wins": 53,
+        "matches": 174
+      },
+      "Bottom": {
+        "wins": 77,
+        "matches": 150
+      },
+      "Top": {
+        "wins": 4084,
+        "matches": 8112
+      },
+      "Mid": {
+        "wins": 275,
+        "matches": 565
+      }
+    }
+  },
+  {
+    "id": "Sion",
+    "key": "14",
+    "name": "Sion",
+    "class": "Vanguard",
+    "strengthByComp": {
+      "Siege": 3.7,
+      "Split": 0,
+      "Protect": 4,
+      "Catch": 0,
+      "Attack": 4.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 729,
+        "matches": 1545
+      },
+      "Support": {
+        "wins": 307,
+        "matches": 614
+      },
+      "Bottom": {
+        "wins": 487,
+        "matches": 847
+      },
+      "Top": {
+        "wins": 11497,
+        "matches": 22572
+      },
+      "Mid": {
+        "wins": 581,
+        "matches": 1172
+      }
+    }
+  },
+  {
+    "id": "Sivir",
+    "key": "15",
+    "name": "Sivir",
+    "class": "Marksman",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 4,
+      "Protect": 3.3,
+      "Catch": 3.3,
+      "Attack": 3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 1,
+        "matches": 4
+      },
+      "Support": {
+        "wins": 18,
+        "matches": 48
+      },
+      "Bottom": {
+        "wins": 12128,
+        "matches": 23760
+      },
+      "Top": {
+        "wins": 11,
+        "matches": 25
+      },
+      "Mid": {
+        "wins": 95,
+        "matches": 204
+      }
+    }
+  },
+  {
+    "id": "Skarner",
+    "key": "72",
+    "name": "Skarner",
+    "class": "Juggernaut",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 0,
+      "Protect": 2.3,
+      "Catch": 5.9,
+      "Attack": 2.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 2662,
+        "matches": 5229
+      },
+      "Support": {
+        "wins": 6,
+        "matches": 16
+      },
+      "Bottom": {
+        "wins": 0,
+        "matches": 3
+      },
+      "Top": {
+        "wins": 315,
+        "matches": 607
+      },
+      "Mid": {
+        "wins": 16,
+        "matches": 31
+      }
+    }
+  },
+  {
+    "id": "Sona",
+    "key": "37",
+    "name": "Sona",
+    "class": "Enchanter",
+    "strengthByComp": {
+      "Siege": 4,
+      "Split": 2,
+      "Protect": 3.3,
+      "Catch": 2.3,
+      "Attack": 3.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 0,
+        "matches": 5
+      },
+      "Support": {
+        "wins": 5063,
+        "matches": 9831
+      },
+      "Bottom": {
+        "wins": 27,
+        "matches": 62
+      },
+      "Top": {
+        "wins": 4,
+        "matches": 17
+      },
+      "Mid": {
+        "wins": 6,
+        "matches": 26
+      }
+    }
+  },
+  {
+    "id": "Soraka",
+    "key": "16",
+    "name": "Soraka",
+    "class": "Enchanter",
+    "strengthByComp": {
+      "Siege": 4.3,
+      "Split": 2.3,
+      "Protect": 4.3,
+      "Catch": 0,
+      "Attack": 2.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 6,
+        "matches": 51
+      },
+      "Support": {
+        "wins": 10852,
+        "matches": 21460
+      },
+      "Bottom": {
+        "wins": 158,
+        "matches": 288
+      },
+      "Top": {
+        "wins": 158,
+        "matches": 346
+      },
+      "Mid": {
+        "wins": 94,
+        "matches": 213
+      }
+    }
+  },
+  {
+    "id": "Swain",
+    "key": "50",
+    "name": "Swain",
+    "class": "Battle Mage",
+    "strengthByComp": {
+      "Siege": 2,
+      "Split": 2.7,
+      "Protect": 2.7,
+      "Catch": 2.7,
+      "Attack": 5
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 0,
+        "matches": 5
+      },
+      "Support": {
+        "wins": 7201,
+        "matches": 14743
+      },
+      "Bottom": {
+        "wins": 3310,
+        "matches": 6023
+      },
+      "Top": {
+        "wins": 499,
+        "matches": 968
+      },
+      "Mid": {
+        "wins": 1718,
+        "matches": 3217
+      }
+    }
+  },
+  {
+    "id": "Sylas",
+    "key": "517",
+    "name": "Sylas",
+    "class": "Specialist",
+    "strengthByComp": {
+      "Siege": 1.7,
+      "Split": 3.3,
+      "Protect": 1.7,
+      "Catch": 3.3,
+      "Attack": 5
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 701,
+        "matches": 1731
+      },
+      "Support": {
+        "wins": 217,
+        "matches": 534
+      },
+      "Bottom": {
+        "wins": 134,
+        "matches": 270
+      },
+      "Top": {
+        "wins": 14064,
+        "matches": 28667
+      },
+      "Mid": {
+        "wins": 40305,
+        "matches": 80378
+      }
+    }
+  },
+  {
+    "id": "Syndra",
+    "key": "134",
+    "name": "Syndra",
+    "class": "Burst Mage",
+    "strengthByComp": {
+      "Siege": 1.7,
+      "Split": 1.7,
+      "Protect": 2.3,
+      "Catch": 5.6,
+      "Attack": 3.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 2,
+        "matches": 15
+      },
+      "Support": {
+        "wins": 158,
+        "matches": 345
+      },
+      "Bottom": {
+        "wins": 280,
+        "matches": 591
+      },
+      "Top": {
+        "wins": 83,
+        "matches": 176
+      },
+      "Mid": {
+        "wins": 5418,
+        "matches": 11829
+      }
+    }
+  },
+  {
+    "id": "TahmKench",
+    "key": "223",
+    "name": "Tahm Kench",
+    "class": "Warden",
+    "strengthByComp": {
+      "Siege": 3,
+      "Split": 2.7,
+      "Protect": 4,
+      "Catch": 1.7,
+      "Attack": 3.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 77,
+        "matches": 169
+      },
+      "Support": {
+        "wins": 1099,
+        "matches": 2525
+      },
+      "Bottom": {
+        "wins": 1509,
+        "matches": 2857
+      },
+      "Top": {
+        "wins": 1660,
+        "matches": 3452
+      },
+      "Mid": {
+        "wins": 46,
+        "matches": 95
+      }
+    }
+  },
+  {
+    "id": "Taliyah",
+    "key": "163",
+    "name": "Taliyah",
+    "class": "Battle Mage",
+    "strengthByComp": {
+      "Siege": 2.7,
+      "Split": 1.7,
+      "Protect": 2.7,
+      "Catch": 4.3,
+      "Attack": 3.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 3729,
+        "matches": 7136
+      },
+      "Support": {
+        "wins": 527,
+        "matches": 942
+      },
+      "Bottom": {
+        "wins": 111,
+        "matches": 210
+      },
+      "Top": {
+        "wins": 6,
+        "matches": 10
+      },
+      "Mid": {
+        "wins": 418,
+        "matches": 770
+      }
+    }
+  },
+  {
+    "id": "Talon",
+    "key": "91",
+    "name": "Talon",
+    "class": "Assassin",
+    "strengthByComp": {
+      "Siege": 2.3,
+      "Split": 3.7,
+      "Protect": 0,
+      "Catch": 4.7,
+      "Attack": 2.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 230,
+        "matches": 478
+      },
+      "Support": {
+        "wins": 16,
+        "matches": 36
+      },
+      "Bottom": {
+        "wins": 23,
+        "matches": 43
+      },
+      "Top": {
+        "wins": 266,
+        "matches": 565
+      },
+      "Mid": {
+        "wins": 14377,
+        "matches": 27798
+      }
+    }
+  },
+  {
+    "id": "Taric",
+    "key": "44",
+    "name": "Taric",
+    "class": "Enchanter",
+    "strengthByComp": {
+      "Siege": 3.3,
+      "Split": 2,
+      "Protect": 4.7,
+      "Catch": 2.3,
+      "Attack": 2.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 108,
+        "matches": 234
+      },
+      "Support": {
+        "wins": 3700,
+        "matches": 7266
+      },
+      "Bottom": {
+        "wins": 29,
+        "matches": 49
+      },
+      "Top": {
+        "wins": 224,
+        "matches": 536
+      },
+      "Mid": {
+        "wins": 28,
+        "matches": 76
+      }
+    }
+  },
+  {
+    "id": "Teemo",
+    "key": "17",
+    "name": "Teemo",
+    "class": "Specialist",
+    "strengthByComp": {
+      "Siege": 2.7,
+      "Split": 4.3,
+      "Protect": 2.7,
+      "Catch": 3.7,
+      "Attack": 1.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 101,
+        "matches": 308
+      },
+      "Support": {
+        "wins": 260,
+        "matches": 667
+      },
+      "Bottom": {
+        "wins": 87,
+        "matches": 200
+      },
+      "Top": {
+        "wins": 4752,
+        "matches": 9869
+      },
+      "Mid": {
+        "wins": 380,
+        "matches": 800
+      }
+    }
+  },
+  {
+    "id": "Thresh",
+    "key": "412",
+    "name": "Thresh",
+    "class": "Catcher",
+    "strengthByComp": {
+      "Siege": 2.3,
+      "Split": 0,
+      "Protect": 3.3,
+      "Catch": 5.3,
+      "Attack": 2.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 0,
+        "matches": 9
+      },
+      "Support": {
+        "wins": 54761,
+        "matches": 109064
+      },
+      "Bottom": {
+        "wins": 29,
+        "matches": 78
+      },
+      "Top": {
+        "wins": 24,
+        "matches": 54
+      },
+      "Mid": {
+        "wins": 6,
+        "matches": 26
+      }
+    }
+  },
+  {
+    "id": "Tristana",
+    "key": "18",
+    "name": "Tristana",
+    "class": "Marksman",
+    "strengthByComp": {
+      "Siege": 3.7,
+      "Split": 2,
+      "Protect": 4.3,
+      "Catch": 0,
+      "Attack": 3.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 30,
+        "matches": 113
+      },
+      "Support": {
+        "wins": 17,
+        "matches": 58
+      },
+      "Bottom": {
+        "wins": 42753,
+        "matches": 84533
+      },
+      "Top": {
+        "wins": 366,
+        "matches": 759
+      },
+      "Mid": {
+        "wins": 3184,
+        "matches": 6224
+      }
+    }
+  },
+  {
+    "id": "Trundle",
+    "key": "48",
+    "name": "Trundle",
+    "class": "Juggernaut",
+    "strengthByComp": {
+      "Siege": 3.3,
+      "Split": 2.7,
+      "Protect": 3.7,
+      "Catch": 3,
+      "Attack": 2.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 2872,
+        "matches": 5634
+      },
+      "Support": {
+        "wins": 328,
+        "matches": 670
+      },
+      "Bottom": {
+        "wins": 21,
+        "matches": 51
+      },
+      "Top": {
+        "wins": 1745,
+        "matches": 3435
+      },
+      "Mid": {
+        "wins": 31,
+        "matches": 78
+      }
+    }
+  },
+  {
+    "id": "Tryndamere",
+    "key": "23",
+    "name": "Tryndamere",
+    "class": "Skirmisher",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 6.5,
+      "Protect": 0,
+      "Catch": 0,
+      "Attack": 0
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 145,
+        "matches": 318
+      },
+      "Support": {
+        "wins": 9,
+        "matches": 26
+      },
+      "Bottom": {
+        "wins": 38,
+        "matches": 80
+      },
+      "Top": {
+        "wins": 6940,
+        "matches": 13764
+      },
+      "Mid": {
+        "wins": 1380,
+        "matches": 2689
+      }
+    }
+  },
+  {
+    "id": "TwistedFate",
+    "key": "4",
+    "name": "Twisted Fate",
+    "class": "Burst Mage",
+    "strengthByComp": {
+      "Siege": 2.7,
+      "Split": 3,
+      "Protect": 0,
+      "Catch": 4.7,
+      "Attack": 3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 30,
+        "matches": 76
+      },
+      "Support": {
+        "wins": 79,
+        "matches": 174
+      },
+      "Bottom": {
+        "wins": 92,
+        "matches": 200
+      },
+      "Top": {
+        "wins": 104,
+        "matches": 244
+      },
+      "Mid": {
+        "wins": 11058,
+        "matches": 22890
+      }
+    }
+  },
+  {
+    "id": "Twitch",
+    "key": "29",
+    "name": "Twitch",
+    "class": "Marksman",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 1.7,
+      "Protect": 4.3,
+      "Catch": 3.3,
+      "Attack": 4.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 1118,
+        "matches": 2376
+      },
+      "Support": {
+        "wins": 804,
+        "matches": 1847
+      },
+      "Bottom": {
+        "wins": 15060,
+        "matches": 29902
+      },
+      "Top": {
+        "wins": 58,
+        "matches": 114
+      },
+      "Mid": {
+        "wins": 132,
+        "matches": 279
+      }
+    }
+  },
+  {
+    "id": "Udyr",
+    "key": "77",
+    "name": "Udyr",
+    "class": "Juggernaut",
+    "strengthByComp": {
+      "Siege": 3.3,
+      "Split": 3,
+      "Protect": 3.3,
+      "Catch": 3,
+      "Attack": 2
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 12419,
+        "matches": 25272
+      },
+      "Support": {
+        "wins": 3,
+        "matches": 13
+      },
+      "Bottom": {
+        "wins": 1,
+        "matches": 8
+      },
+      "Top": {
+        "wins": 206,
+        "matches": 468
+      },
+      "Mid": {
+        "wins": 15,
+        "matches": 34
+      }
+    }
+  },
+  {
+    "id": "Urgot",
+    "key": "6",
+    "name": "Urgot",
+    "class": "Juggernaut",
+    "strengthByComp": {
+      "Siege": 3,
+      "Split": 4,
+      "Protect": 3.7,
+      "Catch": 0,
+      "Attack": 3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 247,
+        "matches": 514
+      },
+      "Support": {
+        "wins": 20,
+        "matches": 44
+      },
+      "Bottom": {
+        "wins": 66,
+        "matches": 112
+      },
+      "Top": {
+        "wins": 17151,
+        "matches": 33033
+      },
+      "Mid": {
+        "wins": 365,
+        "matches": 695
+      }
+    }
+  },
+  {
+    "id": "Varus",
+    "key": "110",
+    "name": "Varus",
+    "class": "Marksman",
+    "strengthByComp": {
+      "Siege": 4,
+      "Split": 1.7,
+      "Protect": 3,
+      "Catch": 3,
+      "Attack": 3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 1,
+        "matches": 3
+      },
+      "Support": {
+        "wins": 61,
+        "matches": 153
+      },
+      "Bottom": {
+        "wins": 27864,
+        "matches": 55870
+      },
+      "Top": {
+        "wins": 39,
+        "matches": 92
+      },
+      "Mid": {
+        "wins": 905,
+        "matches": 2001
+      }
+    }
+  },
+  {
+    "id": "Vayne",
+    "key": "67",
+    "name": "Vayne",
+    "class": "Marksman",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 2.3,
+      "Protect": 5.6,
+      "Catch": 0,
+      "Attack": 3.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 33,
+        "matches": 95
+      },
+      "Support": {
+        "wins": 9,
+        "matches": 34
+      },
+      "Bottom": {
+        "wins": 34501,
+        "matches": 67471
+      },
+      "Top": {
+        "wins": 2720,
+        "matches": 5441
+      },
+      "Mid": {
+        "wins": 483,
+        "matches": 971
+      }
+    }
+  },
+  {
+    "id": "Veigar",
+    "key": "45",
+    "name": "Veigar",
+    "class": "Burst Mage",
+    "strengthByComp": {
+      "Siege": 3.3,
+      "Split": 1.7,
+      "Protect": 3.3,
+      "Catch": 3.7,
+      "Attack": 3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 0,
+        "matches": 3
+      },
+      "Support": {
+        "wins": 1302,
+        "matches": 2772
+      },
+      "Bottom": {
+        "wins": 1902,
+        "matches": 3582
+      },
+      "Top": {
+        "wins": 236,
+        "matches": 485
+      },
+      "Mid": {
+        "wins": 5265,
+        "matches": 10800
+      }
+    }
+  },
+  {
+    "id": "Velkoz",
+    "key": "161",
+    "name": "Vel'Koz",
+    "class": "Artillery Mage",
+    "strengthByComp": {
+      "Siege": 4.7,
+      "Split": 1.7,
+      "Protect": 1.7,
+      "Catch": 2.7,
+      "Attack": 4.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 1,
+        "matches": 8
+      },
+      "Support": {
+        "wins": 5250,
+        "matches": 10649
+      },
+      "Bottom": {
+        "wins": 382,
+        "matches": 752
+      },
+      "Top": {
+        "wins": 136,
+        "matches": 264
+      },
+      "Mid": {
+        "wins": 5512,
+        "matches": 10983
+      }
+    }
+  },
+  {
+    "id": "Vi",
+    "key": "254",
+    "name": "Vi",
+    "class": "Diver",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 1.7,
+      "Protect": 2.3,
+      "Catch": 5.6,
+      "Attack": 3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 6035,
+        "matches": 11967
+      },
+      "Support": {
+        "wins": 38,
+        "matches": 67
+      },
+      "Bottom": {
+        "wins": 2,
+        "matches": 6
+      },
+      "Top": {
+        "wins": 70,
+        "matches": 177
+      },
+      "Mid": {
+        "wins": 81,
+        "matches": 174
+      }
+    }
+  },
+  {
+    "id": "Viktor",
+    "key": "112",
+    "name": "Viktor",
+    "class": "Battle Mage",
+    "strengthByComp": {
+      "Siege": 3.7,
+      "Split": 2,
+      "Protect": 3.3,
+      "Catch": 1.7,
+      "Attack": 4
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 1,
+        "matches": 5
+      },
+      "Support": {
+        "wins": 21,
+        "matches": 59
+      },
+      "Bottom": {
+        "wins": 228,
+        "matches": 452
+      },
+      "Top": {
+        "wins": 562,
+        "matches": 1151
+      },
+      "Mid": {
+        "wins": 15015,
+        "matches": 30487
+      }
+    }
+  },
+  {
+    "id": "Vladimir",
+    "key": "8",
+    "name": "Vladimir",
+    "class": "Battle Mage",
+    "strengthByComp": {
+      "Siege": 2.3,
+      "Split": 3.7,
+      "Protect": 2.3,
+      "Catch": 2,
+      "Attack": 4.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 0,
+        "matches": 5
+      },
+      "Support": {
+        "wins": 7,
+        "matches": 39
+      },
+      "Bottom": {
+        "wins": 227,
+        "matches": 464
+      },
+      "Top": {
+        "wins": 6617,
+        "matches": 13748
+      },
+      "Mid": {
+        "wins": 19068,
+        "matches": 37472
+      }
+    }
+  },
+  {
+    "id": "Volibear",
+    "key": "106",
+    "name": "Volibear",
+    "class": "Juggernaut",
+    "strengthByComp": {
+      "Siege": 2,
+      "Split": 2.3,
+      "Protect": 4.3,
+      "Catch": 3.7,
+      "Attack": 2.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 12036,
+        "matches": 23442
+      },
+      "Support": {
+        "wins": 47,
+        "matches": 140
+      },
+      "Bottom": {
+        "wins": 13,
+        "matches": 37
+      },
+      "Top": {
+        "wins": 11402,
+        "matches": 22848
+      },
+      "Mid": {
+        "wins": 244,
+        "matches": 485
+      }
+    }
+  },
+  {
+    "id": "Warwick",
+    "key": "19",
+    "name": "Warwick",
+    "class": "Diver",
+    "strengthByComp": {
+      "Siege": 1.7,
+      "Split": 2.3,
+      "Protect": 2.3,
+      "Catch": 4.7,
+      "Attack": 3.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 7203,
+        "matches": 13882
+      },
+      "Support": {
+        "wins": 28,
+        "matches": 53
+      },
+      "Bottom": {
+        "wins": 4,
+        "matches": 11
+      },
+      "Top": {
+        "wins": 2752,
+        "matches": 5332
+      },
+      "Mid": {
+        "wins": 64,
+        "matches": 138
+      }
+    }
+  },
+  {
+    "id": "Xayah",
+    "key": "498",
+    "name": "Xayah",
+    "class": "Marksman",
+    "strengthByComp": {
+      "Siege": 1.7,
+      "Split": 2.7,
+      "Protect": 4.7,
+      "Catch": 2,
+      "Attack": 4
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 1,
+        "matches": 4
+      },
+      "Support": {
+        "wins": 4,
+        "matches": 8
+      },
+      "Bottom": {
+        "wins": 9327,
+        "matches": 19470
+      },
+      "Top": {
+        "wins": 6,
+        "matches": 15
+      },
+      "Mid": {
+        "wins": 14,
+        "matches": 24
+      }
+    }
+  },
+  {
+    "id": "Xerath",
+    "key": "101",
+    "name": "Xerath",
+    "class": "Artillery Mage",
+    "strengthByComp": {
+      "Siege": 5.9,
+      "Split": 0,
+      "Protect": 0,
+      "Catch": 2.3,
+      "Attack": 2.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 1,
+        "matches": 3
+      },
+      "Support": {
+        "wins": 12107,
+        "matches": 24128
+      },
+      "Bottom": {
+        "wins": 637,
+        "matches": 1182
+      },
+      "Top": {
+        "wins": 55,
+        "matches": 110
+      },
+      "Mid": {
+        "wins": 10343,
+        "matches": 20271
+      }
+    }
+  },
+  {
+    "id": "XinZhao",
+    "key": "5",
+    "name": "Xin Zhao",
+    "class": "Diver",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 2.7,
+      "Protect": 2.7,
+      "Catch": 4.7,
+      "Attack": 3.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 19989,
+        "matches": 38057
+      },
+      "Support": {
+        "wins": 61,
+        "matches": 132
+      },
+      "Bottom": {
+        "wins": 63,
+        "matches": 111
+      },
+      "Top": {
+        "wins": 582,
+        "matches": 1220
+      },
+      "Mid": {
+        "wins": 579,
+        "matches": 1120
+      }
+    }
+  },
+  {
+    "id": "Yasuo",
+    "key": "157",
+    "name": "Yasuo",
+    "class": "Skirmisher",
+    "strengthByComp": {
+      "Siege": 1.7,
+      "Split": 4.3,
+      "Protect": 1.7,
+      "Catch": 1.7,
+      "Attack": 5.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 50,
+        "matches": 140
+      },
+      "Support": {
+        "wins": 57,
+        "matches": 124
+      },
+      "Bottom": {
+        "wins": 3079,
+        "matches": 6010
+      },
+      "Top": {
+        "wins": 3016,
+        "matches": 6303
+      },
+      "Mid": {
+        "wins": 25544,
+        "matches": 51029
+      }
+    }
+  },
+  {
+    "id": "Yorick",
+    "key": "83",
+    "name": "Yorick",
+    "class": "Juggernaut",
+    "strengthByComp": {
+      "Siege": 2,
+      "Split": 6.2,
+      "Protect": 1.7,
+      "Catch": 0,
+      "Attack": 2
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 18,
+        "matches": 46
+      },
+      "Support": {
+        "wins": 5,
+        "matches": 11
+      },
+      "Bottom": {
+        "wins": 11,
+        "matches": 30
+      },
+      "Top": {
+        "wins": 3655,
+        "matches": 7411
+      },
+      "Mid": {
+        "wins": 72,
+        "matches": 153
+      }
+    }
+  },
+  {
+    "id": "Yuumi",
+    "key": "350",
+    "name": "Yuumi",
+    "class": "Enchanter",
+    "strengthByComp": {
+      "Siege": 3.7,
+      "Split": 2,
+      "Protect": 4.3,
+      "Catch": 2.3,
+      "Attack": 2.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 3,
+        "matches": 67
+      },
+      "Support": {
+        "wins": 25848,
+        "matches": 53561
+      },
+      "Bottom": {
+        "wins": 9,
+        "matches": 35
+      },
+      "Top": {
+        "wins": 24,
+        "matches": 75
+      },
+      "Mid": {
+        "wins": 7,
+        "matches": 50
+      }
+    }
+  },
+  {
+    "id": "Zac",
+    "key": "154",
+    "name": "Zac",
+    "class": "Vanguard",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 0,
+      "Protect": 0,
+      "Catch": 4,
+      "Attack": 5.6
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 14202,
+        "matches": 27357
+      },
+      "Support": {
+        "wins": 1119,
+        "matches": 2190
+      },
+      "Bottom": {
+        "wins": 54,
+        "matches": 94
+      },
+      "Top": {
+        "wins": 1494,
+        "matches": 2964
+      },
+      "Mid": {
+        "wins": 728,
+        "matches": 1371
+      }
+    }
+  },
+  {
+    "id": "Zed",
+    "key": "238",
+    "name": "Zed",
+    "class": "Assassin",
+    "strengthByComp": {
+      "Siege": 0,
+      "Split": 3.7,
+      "Protect": 0,
+      "Catch": 5.6,
+      "Attack": 0
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 688,
+        "matches": 1528
+      },
+      "Support": {
+        "wins": 35,
+        "matches": 93
+      },
+      "Bottom": {
+        "wins": 137,
+        "matches": 272
+      },
+      "Top": {
+        "wins": 678,
+        "matches": 1372
+      },
+      "Mid": {
+        "wins": 32698,
+        "matches": 64780
+      }
+    }
+  },
+  {
+    "id": "Ziggs",
+    "key": "115",
+    "name": "Ziggs",
+    "class": "Artillery Mage",
+    "strengthByComp": {
+      "Siege": 5.9,
+      "Split": 0,
+      "Protect": 0,
+      "Catch": 0,
+      "Attack": 3.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 3,
+        "matches": 9
+      },
+      "Support": {
+        "wins": 321,
+        "matches": 668
+      },
+      "Bottom": {
+        "wins": 719,
+        "matches": 1392
+      },
+      "Top": {
+        "wins": 55,
+        "matches": 108
+      },
+      "Mid": {
+        "wins": 2562,
+        "matches": 5075
+      }
+    }
+  },
+  {
+    "id": "Zilean",
+    "key": "26",
+    "name": "Zilean",
+    "class": "Specialist",
+    "strengthByComp": {
+      "Siege": 4,
+      "Split": 0,
+      "Protect": 5.3,
+      "Catch": 2.7,
+      "Attack": 1.7
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 1,
+        "matches": 2
+      },
+      "Support": {
+        "wins": 11251,
+        "matches": 21688
+      },
+      "Bottom": {
+        "wins": 93,
+        "matches": 169
+      },
+      "Top": {
+        "wins": 195,
+        "matches": 398
+      },
+      "Mid": {
+        "wins": 1362,
+        "matches": 2605
+      }
+    }
+  },
+  {
+    "id": "Zoe",
+    "key": "142",
+    "name": "Zoe",
+    "class": "Burst Mage",
+    "strengthByComp": {
+      "Siege": 5.3,
+      "Split": 0,
+      "Protect": 0,
+      "Catch": 4.7,
+      "Attack": 2
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 2,
+        "matches": 9
+      },
+      "Support": {
+        "wins": 147,
+        "matches": 330
+      },
+      "Bottom": {
+        "wins": 38,
+        "matches": 77
+      },
+      "Top": {
+        "wins": 51,
+        "matches": 113
+      },
+      "Mid": {
+        "wins": 8837,
+        "matches": 18031
+      }
+    }
+  },
+  {
+    "id": "Zyra",
+    "key": "143",
+    "name": "Zyra",
+    "class": "Catcher",
+    "strengthByComp": {
+      "Siege": 3,
+      "Split": 2,
+      "Protect": 2.3,
+      "Catch": 3.3,
+      "Attack": 4.3
+    },
+    "statsByRole": {
+      "Jungle": {
+        "wins": 43,
+        "matches": 96
+      },
+      "Support": {
+        "wins": 11801,
+        "matches": 23224
+      },
+      "Bottom": {
+        "wins": 116,
+        "matches": 211
+      },
+      "Top": {
+        "wins": 9,
+        "matches": 21
+      },
+      "Mid": {
+        "wins": 386,
+        "matches": 786
+      }
+    }
+  }
+]

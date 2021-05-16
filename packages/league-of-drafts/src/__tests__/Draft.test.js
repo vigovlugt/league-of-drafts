@@ -46,3 +46,15 @@ test("Split composition == Split", () => {
 
     expect(draft.getCompType()).toBe(CompType.Split);
 });
+
+test("Draftlines have all champions", () => {
+    const draft = new Draft();
+    draft.setChampions(["Pantheon", "Kha'Zix", "Zoe", "Ashe", "Bard"]);
+    const draftLines = draft.getDraftLines();
+
+    expect(
+        draftLines.frontLine.length +
+            draftLines.midLine.length +
+            draftLines.backLine.length
+    ).toBe(5);
+});
