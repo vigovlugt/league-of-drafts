@@ -41,6 +41,9 @@ export default function DraftSuggestions() {
                     const stats = suggestion.stats;
                     return stats.wins / stats.matches;
                 },
+                sortType: (rowA, rowB) =>
+                    rowA.original.stats.wins / rowA.original.stats.matches -
+                    rowB.original.stats.wins / rowB.original.stats.matches,
                 Cell: ({ row }) => {
                     const { wins, matches } = row.original.stats;
                     return (
