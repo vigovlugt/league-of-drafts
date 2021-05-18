@@ -1,66 +1,54 @@
-import { useState } from "react";
-import { Role } from "@league-of-drafts/league-of-drafts";
-import { getRoleIconByRole } from "../../utils/roleUtils";
+import { Role, numberToTier } from "@league-of-drafts/league-of-drafts";
+import { useMemo } from "react";
+import DraftChampion from "./DraftChampion";
+import useDraftStore from "../../store/draftStore";
+import { Team } from "@league-of-drafts/league-of-drafts";
 
-export default function DraftSidebar({ draft }) {
-    const [selectedRole, setSelectedRole] = useState(Role.Top);
+export default function DraftSidebar({ draft, team }) {
+    const selectedRole = useDraftStore((store) => store.selectedRole);
+    const selectedTeam = useDraftStore((store) => store.selectedTeam);
+    const setSelected = useDraftStore((store) => store.setSelected);
+    const version = useDraftStore((store) => store.version);
+
+    const compTypeTier = useMemo(() => draft.getCompTypeStrength(), [version]);
+
+    const compType = useMemo(() => draft.getCompType(), [version]);
+
+    const championByRole = useMemo(
+        () =>
+            Object.keys(Role).reduce(
+                (acc, role) => ({
+                    ...acc,
+                    [role]: draft.getChampion(role),
+                }),
+                {}
+            ),
+        [version]
+    );
+
+    const setSelectedRole = (role) => setSelected(role, team);
 
     return (
         <div className="flex flex-col h-full">
+            <div
+                className={`h-[100px] flex-1 flex-grow-0 border-b-2 border-dark-4 cursor-pointer relative flex items-center p-4 flex items-center justify-center ${
+                    team === Team.Enemy ? "border-l-2 " : "border-r-2"
+                }`}
+            >
+                <h2 className="text-xl font-header uppercase tracking-wide">
+                    {compType} - <span>{numberToTier(compTypeTier)}</span>
+                </h2>
+            </div>
             {Object.keys(Role).map((role) => (
-                <DraftRole
+                <DraftChampion
                     key={role}
                     role={role}
-                    active={selectedRole === role}
+                    active={selectedRole === role && selectedTeam === team}
                     setActive={() => setSelectedRole(role)}
-                    champion={draft && draft.getChampion(role)}
+                    champion={championByRole[role]}
+                    team={team}
                 />
             ))}
-        </div>
-    );
-}
-
-const EMPTY_PNG =
-    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=";
-
-function DraftRole({ role, active, setActive, champion }) {
-    const Icon = getRoleIconByRole(role);
-
-    const hasChampion = champion != null;
-
-    return (
-        <div
-            className={`h-full flex-1 border-b-2 border-r-2 border-dark-4 cursor-pointer relative flex items-center p-4 ${
-                active && "bg-dark-4"
-            }`}
-            onClick={setActive}
-        >
-            <Icon className="w-8 absolute top-2 left-4" />
-            {
-                <div>
-                    <h3 className="font-header text-xl ml-1">
-                        {hasChampion ? champion.name : role}
-                    </h3>
-                    <div
-                        className={`relative rounded-full overflow-hidden border-4 border-transparent ${
-                            active && hasChampion && "border-primary"
-                        }`}
-                    >
-                        <img
-                            src={
-                                hasChampion
-                                    ? `http://ddragon.leagueoflegends.com/cdn/11.10.1/img/champion/${champion.id}.png`
-                                    : EMPTY_PNG
-                            }
-                            className="w-[64px] h-[64px] min-w-[64px] min-h-[64px]"
-                            alt={role}
-                            style={{
-                                transform: "scale3d(1.1,1.1,1.1)",
-                            }}
-                        />
-                    </div>
-                </div>
-            }
         </div>
     );
 }

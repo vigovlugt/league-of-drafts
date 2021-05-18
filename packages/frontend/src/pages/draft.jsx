@@ -1,32 +1,24 @@
 import DraftSidebar from "../components/draft/DraftSidebar";
-import { Draft, Role } from "@league-of-drafts/league-of-drafts";
-import { useEffect, useState } from "react";
-import DraftChampions from "../components/draft/DraftChampions";
+import DraftSuggestions from "../components/draft/DraftSuggestions";
+import useDraftStore from "../store/draftStore";
+import { Team } from "@league-of-drafts/league-of-drafts/";
 
 export default function DraftPage() {
-    const [draft, setDraft] = useState();
-
-    useEffect(() => {
-        const newDraft = new Draft();
-        newDraft.addChampion("Camille", Role.Top);
-        setDraft(newDraft);
-    }, []);
+    const allyDraft = useDraftStore((store) => store.allyDraft);
+    const enemyDraft = useDraftStore((store) => store.enemyDraft);
 
     return (
         <div
-            className="h-full flex-grow grid"
+            className="flex-grow grid"
             style={{
-                gridTemplateColumns: "1fr 2fr 1fr",
+                gridTemplateColumns: "1fr 3fr 1fr",
                 gridTemplateRows: "100%",
+                height: "calc(100vh - 74px)",
             }}
         >
-            <DraftSidebar draft={draft} />
-            <DraftChampions draft={draft} />
-            <div className="p-4">
-                <h2 className="text-2xl font-header text-center">
-                    {draft && draft.getCompType()}
-                </h2>
-            </div>
+            <DraftSidebar draft={allyDraft} team={Team.Ally} />
+            <DraftSuggestions />
+            <DraftSidebar draft={enemyDraft} team={Team.Enemy} />
         </div>
     );
 }

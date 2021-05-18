@@ -6,4 +6,6 @@ enum Role {
     Support = "Support",
 }
 
+export const ROLES = Object.values(Role);
+
 export default Role;

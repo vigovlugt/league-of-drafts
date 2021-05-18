@@ -1,4 +1,4 @@
-import Class from "../models/Class";
+import Class from "../../champion/Class";
 
 export const FRONTLINE = [Class.Juggernaut, Class.Vanguard, Class.Diver];
 

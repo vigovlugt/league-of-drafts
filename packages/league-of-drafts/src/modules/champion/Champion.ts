@@ -1,10 +1,10 @@
 import IChampionData from "./IChampionData";
-import Role from "../Role";
-import IStats from "../IStats";
-import CompType from "../CompType";
-import Class from "../Class";
-import Constants from "../../constants/Constants";
-import totalMatches from "../../data/totalMatches";
+import Role from "./Role";
+import IStats from "../common/models/IStats";
+import CompType from "../comptype/CompType";
+import Class from "./Class";
+import Constants from "../common/constants/Constants";
+import { totalMatches } from "../common/utils/championDataUtils";
 
 export default class Champion implements IChampionData {
     class: Class;

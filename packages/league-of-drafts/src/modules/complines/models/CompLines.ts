@@ -1,6 +1,6 @@
-import DraftChampion from "./champion/DraftChampion";
+import DraftChampion from "../../draft/models/DraftChampion";
 
-export default class DraftLines {
+export default class CompLines {
     constructor(
         public frontLine: DraftChampion[],
         public midLine: DraftChampion[],

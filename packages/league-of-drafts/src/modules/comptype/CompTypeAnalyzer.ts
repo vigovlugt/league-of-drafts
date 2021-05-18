@@ -1,10 +1,8 @@
-import Draft from "../Draft";
-import CompType from "../models/CompType";
+import Draft from "../draft/models/Draft";
+import CompType from "./CompType";
 
 export default class CompTypeAnalyzer {
-    constructor(private draft: Draft) {}
-
-    public getStrengths() {
+    public static getStrengths(draft: Draft) {
         const strengthByCompType: { [key in CompType]: number } = {
             Attack: 0,
             Siege: 0,
@@ -13,7 +11,7 @@ export default class CompTypeAnalyzer {
             Catch: 0,
         };
 
-        for (const champion of this.draft.champions) {
+        for (const champion of draft.champions) {
             for (const compType of Object.keys(champion.strengthByComp)) {
                 strengthByCompType[compType as CompType] +=
                     champion.strengthByComp[compType as CompType];
@@ -21,18 +19,23 @@ export default class CompTypeAnalyzer {
         }
 
         for (const compType of Object.keys(strengthByCompType)) {
-            strengthByCompType[compType as CompType] /=
-                this.draft.champions.length;
+            strengthByCompType[compType as CompType] /= draft.champions.length;
         }
 
         return strengthByCompType;
     }
 
-    public getCompType() {
-        const strengths = this.getStrengths();
+    public static getCompType(draft: Draft) {
+        const strengths = this.getStrengths(draft);
 
         return Object.keys(strengths).reduce((a, b) =>
             strengths[a as CompType] > strengths[b as CompType] ? a : b
         );
+    }
+
+    public static getCompTypeStrength(draft: Draft) {
+        const strengths = this.getStrengths(draft);
+
+        return Object.values(strengths).reduce((a, b) => (a > b ? a : b));
     }
 }

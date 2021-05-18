@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    ::-webkit-scrollbar-track {
+        @apply bg-dark-1;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        @apply bg-dark-24;
+    }
+
+    ::-webkit-scrollbar {
+        width: 12px;
+    }
+}

@@ -27,6 +27,8 @@ module.exports = {
                     great: "#3273fa",
                     volxd: "#ff9b00",
                 },
+                ally: "#1580B6",
+                enemy: "#DE2F2F",
                 light: "#E7E5E8",
                 primary: "#65E25E",
                 gray: colors.trueGray,
