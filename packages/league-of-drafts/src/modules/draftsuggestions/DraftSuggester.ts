@@ -20,6 +20,7 @@ export default class DraftSuggester {
                 (c) =>
                     new ChampionSuggestion(
                         c,
+                        role,
                         this.getPriorityForChampion(draft, role, c)
                     )
             );

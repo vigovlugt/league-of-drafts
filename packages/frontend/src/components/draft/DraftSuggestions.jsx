@@ -38,11 +38,11 @@ export default function DraftSuggestions() {
             {
                 Header: "Ugg Winrate",
                 accessor: (suggestion) => {
-                    const stats = suggestion.statsByRole[role];
+                    const stats = suggestion.stats;
                     return stats.wins / stats.matches;
                 },
                 Cell: ({ row }) => {
-                    const { wins, matches } = row.original.statsByRole[role];
+                    const { wins, matches } = row.original.stats;
                     return (
                         <p
                             className={`text-center ${winrateClass(
