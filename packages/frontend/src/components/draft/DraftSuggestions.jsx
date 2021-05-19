@@ -86,9 +86,24 @@ export default function DraftSuggestions() {
         addChampion(row.original.id, role);
     };
 
+    const onSearch = (query) => {
+        const row = table.rows.find((r) =>
+            r.original.name.toLowerCase().includes(query.toLowerCase())
+        );
+        if (row) {
+            const element = document.getElementById(`table-row-${row.id}`);
+            element.scrollIntoView({ behavior: "smooth", block: "center" });
+
+            element.classList.add("bg-dark-24");
+            setTimeout(() => {
+                element.classList.remove("bg-dark-24");
+            },2000)
+        }
+    };
+
     return (
         <div className="p-4 px-8 h-full overflow-auto">
-            <Search />
+            <Search onSubmit={onSearch} />
             <Table className="mt-4 mx-4" table={table} onClick={onClickRow} />
         </div>
     );

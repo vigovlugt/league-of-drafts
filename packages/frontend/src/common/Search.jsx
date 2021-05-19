@@ -2,7 +2,13 @@ import { SearchIcon } from "@heroicons/react/outline";
 
 export default function Search({ onSubmit }) {
     return (
-        <form onSubmit={onSubmit} className="relative w-full max-w-xl mx-auto">
+        <form
+            onSubmit={(e) => {
+                e.preventDefault();
+                onSubmit(e.target[0].value);
+            }}
+            className="relative w-full max-w-xl mx-auto"
+        >
             <input
                 className="border rounded-md px-4 py-2 text-sm shadow border-dark-6 placeholder-gray-300 text-white bg-dark-3 w-full"
                 placeholder="Search champions"

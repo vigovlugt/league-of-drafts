@@ -30,15 +30,16 @@ export default function Table({ table, className, onClick = () => {} }) {
                 </thead>
                 <tbody
                     {...table.getTableBodyProps()}
-                    className="divide-y bg-dark-2 divide-dark-8"
+                    className="divide-y bg-dark-1 divide-dark-8"
                 >
                     {table.rows.map((row) => {
                         table.prepareRow(row);
                         return (
                             <tr
+                                id={`table-row-${row.id}`}
                                 {...row.getRowProps()}
                                 onClick={() => onClick(row)}
-                                className="cursor-pointer"
+                                className="cursor-pointer transition-colors"
                             >
                                 {row.cells.map((cell) => {
                                     return (

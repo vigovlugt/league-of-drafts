@@ -78,8 +78,4 @@ export default class Draft {
     public clone() {
         return new Draft(this.champions.map((c) => c.clone()));
     }
-
-    public getId() {
-        return ROLES.map((role) => this.getChampion(role)?.id || "").join("|");
-    }
 }

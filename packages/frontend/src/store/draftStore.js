@@ -25,6 +25,14 @@ const useDraftStore = create((set, get) => ({
 
         set(({ version }) => ({ version: version + 1 }));
     },
+    removeChampion: (team, role) => {
+        const state = get();
+        const draft = team === Team.Enemy ? state.enemyDraft : state.allyDraft;
+
+        draft.removeChampion(role);
+
+        set(({ version }) => ({ version: version + 1 }));
+    },
 }));
 
 export default useDraftStore;
